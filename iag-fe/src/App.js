@@ -1,13 +1,13 @@
-import logo from './logo.svg';
+import { Route, Routes, Navigate, useLocation } from 'react-router-dom';
 import './App.css';
+import BottomBar from './application/mobile/components/common/BottomBarMobile';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        This is a blank page
-      </header>
-    </div>
+    <Routes>
+      <Route path='/m/home' element={<BottomBar />}/>
+      <Route exact path='/' element={<Navigate to='/home' />} />
+    </Routes>
   );
 }
 
