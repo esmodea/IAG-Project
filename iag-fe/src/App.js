@@ -22,10 +22,13 @@ function App() {
   return (
     <Routes>
       <Route exact path='/m' element={<Navigate to='/m/home' />} />
-      <Route exact path='/' element={<Navigate to='/home' />} />
-      <Route path='/m/home' element={isMobile ? <BottomBar /> : <></>}/>
-      <Route path='/m/shop' element={isMobile ? <BottomBar /> : <></>}/>
-      <Route path='/m/user' element={isMobile ? <BottomBar /> : <></>}/>
+      <Route exact path='/' element={<Navigate to='/m' />} />
+      <Route path='/m/home' element={isMobile ? <BottomBar /> : <Navigate to='/home'/>}/>
+      <Route path='/m/shop' element={isMobile ? <BottomBar /> : <Navigate to='/shop'/>}/>
+      <Route path='/m/user' element={isMobile ? <BottomBar /> : <Navigate to='/user'/>}/>
+      <Route path='/home' element={isMobile ? <Navigate to='/m/user'/> : <></>}/>
+      <Route path='/shop' element={isMobile ? <Navigate to='/m/user'/> : <></>}/>
+      <Route path='/user' element={isMobile ? <Navigate to='/m/user'/> : <></>}/>
     </Routes>
   );
 }
