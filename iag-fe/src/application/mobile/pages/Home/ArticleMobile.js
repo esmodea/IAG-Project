@@ -5,7 +5,7 @@ const ArticleMobile = (props) => {
 
     return (
         <>
-        {articles ? articles.map(() => {}) : ''}
+        
         </>
     )
 }
