@@ -1,0 +1,10 @@
+.big-red-button{
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem .75rem;
+    font-size: 2rem;
+    display: flex;
+    width: min-content;
+    color: var(--color-secondary-1-1);
+    background-color: var(--color-primary-0);
+}
