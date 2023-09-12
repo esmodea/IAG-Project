@@ -54,6 +54,38 @@
     -webkit-tap-highlight-color: transparent;
 }
 
+.top-bar{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    margin-top: auto;
+    max-width: 100%;
+    width: 100vw;
+    height: 5.5rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+
+.top-bar-icon{
+    height: 5.5rem;
+}
+
+.left-margin{
+    margin-left: 1rem;
+}
+
+.right-margin{
+    margin-right: 1rem;
+}
+
+.auto-left-margin{
+    margin-left: auto;
+}
+
 @keyframes Fade-In-Red {
     0% {
         color: var(--color-primary-1);
