@@ -27,12 +27,12 @@
     padding: 0px;
     list-style-position: inside;
     padding-left: 0px;
-    transition: 1s;
 }
 
 .bottom-bar-button.highlighted{
     color: var(--color-secondary-1-1);
     background-color: var(--color-primary-0);
+    animation: Fade-In-Red .5s linear 0s 1 normal;
 }
 
 .bottom-bar-icon{
@@ -52,4 +52,15 @@
 .nav-link:active{
     background-color: unset;
     -webkit-tap-highlight-color: transparent;
+}
+
+@keyframes Fade-In-Red {
+    0% {
+        color: var(--color-primary-1);
+        background-color: var(--main-background-0);
+    }
+    50% {
+        color: var(--color-secondary-1-1);
+        background-color: var(--color-primary-0);
+    }
 }
