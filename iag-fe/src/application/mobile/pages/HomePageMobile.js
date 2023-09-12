@@ -4,10 +4,10 @@ import TopBar from "../components/common/TopBarMobile";
 
 const HomePageMobile = () => {
     return (
-        <>
+        <div id="MobileHomePage">
             <TopBar />
             <BottomBar />
-        </>
+        </div>
     )
 } 
 
