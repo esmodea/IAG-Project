@@ -1,8 +1,8 @@
 import { Route, Routes, Navigate, useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import './App.css';
 import BottomBar from './application/mobile/components/common/BottomBarMobile';
 import './application/common/common.css';
+import './App.css';
 
 function App() {
   const [width, setWidth] = useState(window.innerWidth);
