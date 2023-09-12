@@ -4,7 +4,29 @@
     padding: .5rem .75rem;
     font-size: 2rem;
     display: flex;
+    justify-content: space-between;
     width: min-content;
     color: var(--color-secondary-1-1);
     background-color: var(--color-primary-0);
+    animation: Fade-In 1s linear 0s 1 normal;
+}
+
+.button-text{
+    padding: 0px;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    margin-right: .5rem;
+    font-size: 1.75rem;
+    animation: Fade-In 1s linear 0s 1 normal;
+}
+
+@keyframes Fade-In {
+    0% {
+        color: black;
+        background-color: black;
+    }
+    50% {
+        color: var(--color-secondary-1-1);
+        background-color: var(--color-primary-0);
+    }
 }
