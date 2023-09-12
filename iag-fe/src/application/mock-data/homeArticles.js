@@ -1,6 +1,5 @@
 const articles = [
     {
-        title: '',
         content: {
             info: {
                 icon: '',
@@ -18,7 +17,6 @@ const articles = [
         key: 1
     },
     {
-        title: '',
         content: {
             info: {
                 icon: '',
@@ -33,10 +31,9 @@ const articles = [
                 likes: '14k'
             }
         },
-        key: 1
+        key: 2
     },
     {
-        title: '',
         content: {
             info: {
                 icon: '',
@@ -51,10 +48,9 @@ const articles = [
                 likes: '14k'
             }
         },
-        key: 1
+        key: 3
     },
     {
-        title: '',
         content: {
             info: {
                 icon: '',
@@ -69,10 +65,9 @@ const articles = [
                 likes: '14k'
             }
         },
-        key: 1
+        key: 4
     },
     {
-        title: '',
         content: {
             info: {
                 icon: '',
@@ -87,6 +82,8 @@ const articles = [
                 likes: '14k'
             }
         },
-        key: 1
+        key: 5 
     },
 ]
+
+export default articles
