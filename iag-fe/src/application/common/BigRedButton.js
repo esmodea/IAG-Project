@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import './common.css'
 
 const BigRedButton = (props) => {
@@ -15,6 +15,6 @@ const BigRedButton = (props) => {
             }
         </button>
     )
-} 
+}
 
 export default BigRedButton
