@@ -3,7 +3,6 @@ import LinkContainer from "./LinkContainer";
 
 const InfoRow = (props) => {
     const {icon, author, links} = props;
-    console.log(icon, links, author)
 
     return (
         <div className="info-row">
