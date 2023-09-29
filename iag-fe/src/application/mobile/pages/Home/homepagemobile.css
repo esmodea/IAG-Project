@@ -36,6 +36,7 @@
 .citation-links{
     position: relative;
     color: var(--color-secondary-2-2);
+    z-index: 0;
 }
 
 .citation-menu{
@@ -76,4 +77,57 @@
 .citation-button:active{
     text-decoration: none;
     animation: none;
+}
+
+.interaction-group{
+    display: flex;
+    justify-self: flex-start;
+}
+
+.interaction-button{
+    border: none;
+    background-color: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+.interaction-amount{
+    color: inherit;
+    font-size: inherit;
+}
+
+.interaction-row{
+    font-size: 1.5rem;
+    color: var(--color-primary-1);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.interaction-group.last-button{
+    justify-self: flex-end;
+}
+
+.spacing-div{
+    height: 5.5rem;
+}
+
+.article-group{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headline, .article{
+    width: 80%;
+}
+
+.headline{
+    color: var(--color-primary-1);
+}
+
+.article{
+    color: white;
 }
