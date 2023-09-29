@@ -8,6 +8,7 @@ const MHomeContent = (props) => {
     return (
         <div className="home-mobile">
         {articles ? articles.map((article) => {return <ArticleMobile article={article} />}) : ''}
+        <div className="spacing-div"></div>
         </div>
     )
 }
