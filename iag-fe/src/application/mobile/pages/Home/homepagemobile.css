@@ -131,3 +131,8 @@
 .article{
     color: white;
 }
+
+.image{
+    width: 90vw;
+    border-radius: .75rem;
+}
