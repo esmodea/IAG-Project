@@ -12,10 +12,10 @@ const UserEditForm = (props) => {
     }
 
     return (
-        <form onSubmit={handleSubmit}>
-            <input type="text"></input>
-            <input type="text"></input>
-            <input type="text"></input>
+        <form className="user-form" onSubmit={handleSubmit}>
+            <input className="username form-text" type="text"></input>
+            <input className="email form-text" type="text"></input>
+            <input className="password form-text" type="password"></input>
             <button></button>
         </form>
     )
