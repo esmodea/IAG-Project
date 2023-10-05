@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import BigRedButton from "../../../common/BigRedButton";
 
 const UserEditForm = (props) => {
     let [userState, setUserState] = useState({
@@ -16,7 +17,7 @@ const UserEditForm = (props) => {
             <input className="username form-text" type="text"></input>
             <input className="email form-text" type="text"></input>
             <input className="password form-text" type="password"></input>
-            <button></button>
+            <BigRedButton className="form-button" text={['Save']} icons={[]} />
         </form>
     )
 }

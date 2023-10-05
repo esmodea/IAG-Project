@@ -34,3 +34,11 @@
     outline: none;
 }
 
+.user-form > .big-red-button{
+    height: 3.5rem;
+    width: 6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
