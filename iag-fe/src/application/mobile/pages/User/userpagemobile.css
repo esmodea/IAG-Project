@@ -28,6 +28,17 @@
     border: none;
     border-radius: .25rem;
     margin-bottom: 1rem;
+    color: var(--color-primary-1);
+}
+
+.form-title{
+    color: var(--color-primary-1);
+    font-weight: initial;
+    align-self: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.25rem;
+    margin-bottom: .15rem;
 }
 
 .form-text:focus{
@@ -41,4 +52,11 @@
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    align-self: center;
+}
+
+.user-form > label{
+    color: var(--color-secondary-2-2);
+    font-size: 1.25rem;
+    margin-bottom: .15rem;
 }
