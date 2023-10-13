@@ -1,7 +1,7 @@
 import React from "react";
-import BottomBar from "./common/BottomBarMobile";
-import TopBar from "./common/TopBarMobile";
-import MHomeContent from "../pages/Home";
+import BottomBar from "../components/common/BottomBarMobile";
+import TopBar from "../components/common/TopBarMobile";
+import MHomeContent from "../components/Home";
 import articles from "../../mock-data/homeArticles";
 
 const HomePageMobile = () => {

@@ -1,7 +1,7 @@
 import React from "react";
 import BottomBar from "../components/common/BottomBarMobile";
 import TopBar from "../components/common/TopBarMobile";
-import MUserContent from "../pages/User";
+import MUserContent from "../components/User";
 
 const UserPageMobile = () => {
     return (

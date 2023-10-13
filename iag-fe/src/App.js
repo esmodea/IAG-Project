@@ -1,9 +1,8 @@
 import { Route, Routes, Navigate, useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import BottomBar from './application/mobile/components/common/BottomBarMobile';
-import HomePageMobile from './application/mobile/components/HomePageMobile';
-import ShopPageMobile from './application/mobile/components/ShopPageMobile';
-import UserPageMobile from './application/mobile/components/UserPageMobile';
+import HomePageMobile from './application/mobile/pages/HomePageMobile';
+import ShopPageMobile from './application/mobile/pages/ShopPageMobile';
+import UserPageMobile from './application/mobile/pages/UserPageMobile';
 import './application/common/common.css';
 import './App.css';
 
