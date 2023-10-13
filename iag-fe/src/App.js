@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import HomePageMobile from './application/mobile/pages/HomePageMobile';
 import ShopPageMobile from './application/mobile/pages/ShopPageMobile';
 import UserPageMobile from './application/mobile/pages/UserPageMobile';
+import HomePageWeb from './application/web/pages/HomePageWeb';
 import './application/common/common.css';
 import './App.css';
 
@@ -28,7 +29,7 @@ function App() {
       <Route path='/m/home' element={isMobile ? <HomePageMobile /> : <Navigate to='/home'/>}/>
       <Route path='/m/shop' element={isMobile ? <ShopPageMobile /> : <Navigate to='/shop'/>}/>
       <Route path='/m/user' element={isMobile ? <UserPageMobile /> : <Navigate to='/user'/>}/>
-      <Route path='/home' element={isMobile ? <Navigate to='/m/home'/> : <></>}/>
+      <Route path='/home' element={isMobile ? <Navigate to='/m/home'/> : <HomePageWeb />}/>
       <Route path='/shop' element={isMobile ? <Navigate to='/m/shop'/> : <></>}/>
       <Route path='/user' element={isMobile ? <Navigate to='/m/user'/> : <></>}/>
     </Routes>
