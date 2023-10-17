@@ -4,9 +4,10 @@ import './common.css'
 const BigRedButton = (props) => {
     let icons = props.icons.map((item) => {return(item)});
     let text = props.text.map((item) => {return(item)});
+    let className = typeof props.className === 'string' ? `${props.className} big-red-button` : 'big-red-button';
 
     return (
-        <button className="big-red-button">
+        <button className={className}>
             {
                 text[0] ? text.map((item, idx) => {return(<p key={'223' + idx} className="button-text">{`${item}`}</p>)}) : <></>
             }
