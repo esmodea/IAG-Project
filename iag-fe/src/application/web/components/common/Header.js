@@ -1,6 +1,7 @@
 import React from "react";
 import BigRedButton from "../../../common/BigRedButton";
 import { LoginOutlined } from "@ant-design/icons";
+import './commonWeb.css'
 
 const Header = () => {
 

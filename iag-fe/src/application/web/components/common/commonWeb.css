@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 4.5rem;
+    background-color: black;
+    padding-left: 20%;
+    padding-right: 20%;
+    justify-content: space-between;
+}
+
+.icon{
+    width: 30%;
+    background-color: darkgray;
+}
+
+.login-button{
+    flex-grow: 0;
+    align-self: center;
+    height: min-content;
+}
