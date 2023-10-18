@@ -1,10 +1,10 @@
 import React from "react";
-import Header from "../components/common/Header";
+import WHomeContent from "../components/Home";
 
 const HomePageWeb = () => {
 
     return(
-        <Header />
+        <WHomeContent />
     )
 }
 
