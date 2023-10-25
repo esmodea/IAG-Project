@@ -43,13 +43,13 @@ const WritersWidget = (props) => {
 
     return(
         <div className="writer-widget">
-            <h5>Writers</h5>
-            <ul>
+            <h5 className="writer-list-title">Writers</h5>
+            <ul className="writer-list">
                 {writers.map((writer) => {
                     return(
-                        <li>
+                        <li className="writer">
                             <div className="icon"></div>
-                            <h6 className="name"> {writer.name} </h6>
+                            <button className="name"> {writer.name} </button>
                         </li>
                     )
                 })}
