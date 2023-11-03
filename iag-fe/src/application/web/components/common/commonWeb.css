@@ -21,3 +21,19 @@
     align-self: center;
     height: min-content;
 }
+
+.about-widget{
+    background-color: rgba(92, 0, 5, .25);
+    padding: 1rem;
+    padding-top: .2rem;
+    margin-top: 1rem;
+    border-radius: 1.5rem;
+}
+
+.about-text{
+    color: white;
+}
+
+.about-title{
+    color: var(--color-secondary-2-2);
+}
