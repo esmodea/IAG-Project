@@ -4,8 +4,10 @@ import HomePageMobile from './application/mobile/pages/HomePageMobile';
 import ShopPageMobile from './application/mobile/pages/ShopPageMobile';
 import UserPageMobile from './application/mobile/pages/UserPageMobile';
 import HomePageWeb from './application/web/pages/HomePageWeb';
+import WriterPageWeb from './application/web/pages/WriterPageWeb';
 import './application/common/common.css';
 import './App.css';
+import authors from './application/mock-data/authorNames';
 
 function App() {
   const [width, setWidth] = useState(window.innerWidth);
@@ -32,6 +34,14 @@ function App() {
       <Route path='/home' element={isMobile ? <Navigate to='/m/home'/> : <HomePageWeb />}/>
       <Route path='/shop' element={isMobile ? <Navigate to='/m/shop'/> : <></>}/>
       <Route path='/user' element={isMobile ? <Navigate to='/m/user'/> : <></>}/>
+      {authors.map((author) => {
+        return(
+          <>
+            <Route path={`/home/${author.name}`} element={isMobile ? <Navigate to={`/m/home/${author.name}`} />: <WriterPageWeb />} />
+            <Route path={`/m/home/${author.name}`} element={isMobile ? <></> : <Navigate to={`/home/${author.name}`} />} />
+          </>
+        )
+      })}
     </Routes>
   );
 }
