@@ -1,18 +1,25 @@
 .header{
     display: flex;
     flex-direction: row;
-    width: 96%;
+    width: 80%;
     height: 4.5rem;
     background-color: black;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
     justify-content: space-between;
     box-shadow: 0rem 4px 4px rgba(0, 0, 0, .25);
-    z-index: 0;
+    z-index: 3;
+    position: fixed;
+}
+
+.header > .icon{
+    width: 210px;
+    background-image: url('../../../../../public/logo512.png');
+    background-size: contain;
+    background-color: black;
 }
 
 .icon{
-    min-width: 20%;
     background-color: darkgray;
 }
 
@@ -30,10 +37,167 @@
     border-radius: 1.5rem;
 }
 
+/* For responsive right-column layout */
+
+@media screen and (max-width: 1140px) {
+    .about-widget{
+        display: none;
+        opacity: 0;
+    }
+    .page-right{
+        display: none;
+    }
+    .page-layout-div > .page-center{
+        width: 60%;
+    }
+    .page-layout-div > .page-left{
+        width: 40%;
+    }
+    .header{
+        width: 86.5%;
+        padding-right: 3.5%;
+    }
+}
+
 .about-text{
     color: white;
 }
 
 .about-title{
     color: var(--color-secondary-2-2);
+}
+
+.article{
+    background-color: var(--main-background-0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    transition: .2s;
+    width: 96%;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.article:hover{
+    background-color: rgba(162, 210, 226, .4);
+    transition: .2s;
+}
+
+.info-bar{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 94%;
+    height: min-content;
+    color: var(--color-secondary-2-2);
+}
+
+.info-bar > .icon {
+    width: min-content;
+    flex: 0 0 auto;
+    justify-self: flex-start;
+    border-radius: 10rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 1rem;
+}
+
+.writer > .icon {
+    width: 2rem;
+    height: 2rem;
+    min-width: 19%;
+}
+
+.info-bar > h2 {
+    margin-left: 1rem;
+    margin-right: auto;
+}
+
+.article-body{
+    width: 85%;
+    padding-left: 2rem;
+    padding-right: 1rem;
+}
+
+.article-body > h3{
+    margin-left: -1rem;
+}
+
+.interaction-bar{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+    padding-bottom: .5rem;
+    margin-bottom: 1rem;
+}
+
+.like-div{
+    display: none;
+    align-items: center;
+}
+
+.mail-button, .share-button {
+    border: none;
+    border-radius: .75rem;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    background: none;
+    color: var(--color-primary-1);
+    transition: .3s;
+}
+
+.mail-button:hover, .share-button:hover {
+    color: var(--color-secondary-2-2);
+    background-color: var(--color-primary-3);
+    transition: .3s;
+    opacity: .75;
+}
+
+.citation-links{
+    position: relative;
+    color: var(--color-secondary-2-2);
+    z-index: 0;
+}
+
+.citation-menu{
+    position: absolute;
+    top: auto;
+    right: 0;
+    background-color: black;
+    border-radius: .5rem;
+    border-color: var(--color-secondary-2-1);
+    border-width: .1rem;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: 1;
+}
+
+.hide{
+    display: none;
+}
+
+.citation-link{
+    margin-top: .1rem;
+    margin-bottom: .1rem;
+    padding: .5rem 1rem;
+    background-color: var(--main-background-0);
+}
+
+.citation-link > a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.citation-button{
+    font-size: 2rem;
+}
+
+.citation-button:active{
+    text-decoration: none;
+    animation: none;
 }

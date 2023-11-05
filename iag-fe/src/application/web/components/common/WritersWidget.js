@@ -1,55 +1,29 @@
 import React from "react";
+import authors from "../../../mock-data/authorNames";
+import { useNavigate } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { changeWriter } from "../../../../state/common/currentWriter";
 
-const writers = [
-    {
-        name: 'Author Name',
-        icon: '',
-    },
-    {
-        name: 'Author Name',
-        icon: '',
-    },
-    {
-        name: 'Author Name',
-        icon: '',
-    },
-    {
-        name: 'Author Name',
-        icon: '',
-    },
-    {
-        name: 'Author Name',
-        icon: '',
-    },
-    {
-        name: 'Author Name',
-        icon: '',
-    },
-    {
-        name: 'Author Name',
-        icon: '',
-    },
-    {
-        name: 'Author Name',
-        icon: '',
-    },
-    {
-        name: 'Author Name',
-        icon: '',
-    }
-]
 
 const WritersWidget = (props) => {
+    const writerState = useSelector((state) => state.currentWriter)
+    const dispatch = useDispatch();
+    const navigate = useNavigate();
+
+    const handleClick = (name) => {
+        dispatch(changeWriter({name: name}));
+        navigate(`/home/${name}`)
+    }
 
     return(
         <div className="writer-widget">
             <h5 className="writer-list-title">Writers</h5>
             <ul className="writer-list">
-                {writers.map((writer) => {
+                {authors.map((author) => {
                     return(
                         <li className="writer">
                             <div className="icon"></div>
-                            <button className="name"> {writer.name} </button>
+                            <button onClick={() => {handleClick(author.name)}} className="name"> {author.name} </button>
                         </li>
                     )
                 })}
