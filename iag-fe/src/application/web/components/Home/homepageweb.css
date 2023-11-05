@@ -1,5 +1,8 @@
 .home-web{
     height: 100vh;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
 }
 
 .page-layout-div{
@@ -7,32 +10,58 @@
     align-items: flex-start;
     justify-content: center;
     width: 100vw;
-    height: calc(100% - 4.5rem);
+    height: calc(100vh - 4.5rem);
+    position: fixed;
+    top: 4rem;
+}
+
+.layout-div{
+    height: 2vh;
+    background-color: var(--main-background-0);
+    color: var(--main-background-0);
 }
 
 .page-left{
-    width: 20%;
-    height: 100%;
+    height: inherit;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, .25);
     z-index: 2;
+    height: calc(100vh - 4rem);
+    width: 20%;
 }
 
 .page-center{
     width: 50%;
-    height: 100%;
+    height: calc(100vh - 4rem);
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    overflow: auto;
+    direction: rtl;
+}
+
+.page-center > * {
+    direction: ltr;
 }
 
 .page-right{
     width: 20%;
-    height: 100%;
+    height: calc(100vh - 4rem);
     z-index: 1;
+}
+
+.writer-widget{
+    height: 45vh;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
 }
 
 .writer-list{
     list-style-type: none;
     display: flex;
     flex-direction: column;
+    width: 100%;
     height: 40vh;
     overflow: auto;
     -ms-overflow-style: none;
@@ -42,11 +71,11 @@
     box-shadow: inset 0px 0px 10px;
     align-items: center;
     text-align: center;
-    width: 100%;
     padding: 0px;
     margin: 0px;
     border-bottom: 1px solid var(--color-primary-1);
     border-top: 1px solid var(--color-primary-1);
+    margin-bottom: auto;
 }
 
 .writer-list::-webkit-scrollbar{
@@ -71,6 +100,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    height: 100%;
 }
 
 .writer{
