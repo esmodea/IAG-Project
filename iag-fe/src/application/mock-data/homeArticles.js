@@ -3,7 +3,7 @@ const articles = [
         content: {
             info: {
                 icon: '',
-                author: 'Author Name',
+                author: '3-Author-Name',
                 links: ['www.google.com', 'www.bing.com']
             },
             article: {
@@ -20,7 +20,7 @@ const articles = [
         content: {
             info: {
                 icon: '',
-                author: 'Author Name',
+                author: '1-Author-Name',
                 links: ['www.google.com', 'www.bing.com']
             },
             article: {
@@ -38,7 +38,7 @@ const articles = [
         content: {
             info: {
                 icon: '',
-                author: 'Author Name',
+                author: '3-Author-Name',
                 links: ['www.google.com', 'www.bing.com']
             },
             article: {
@@ -55,7 +55,7 @@ const articles = [
         content: {
             info: {
                 icon: '',
-                author: 'Author Name',
+                author: '2-Author-Name',
                 links: ['www.google.com', 'www.bing.com']
             },
             article: {
@@ -73,7 +73,7 @@ const articles = [
         content: {
             info: {
                 icon: '',
-                author: 'Author Name',
+                author: '1-Author-Name',
                 links: ['www.google.com', 'www.bing.com']
             },
             article: {
