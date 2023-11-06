@@ -21,7 +21,7 @@ const WHomeContent = () => {
                 <div className="page-center">
                     {articles.map((post) => {
                         const {article, info, interaction} = post.content;
-                        return <ArticleWeb headline={article.headline} text={article.text} info={info} interaction={interaction} key={post.key} />;
+                        return <ArticleWeb article={article} info={info} interaction={interaction} key={post.key} />;
                     })}
                     <div className="layout-div">how did you find this?</div>
                 </div>
