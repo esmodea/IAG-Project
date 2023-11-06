@@ -4,7 +4,8 @@ const articles = [
             info: {
                 icon: '',
                 author: '3-Author-Name',
-                links: ['www.google.com', 'www.bing.com']
+                links: ['www.google.com', 'www.bing.com'],
+                date: '11/24/21'
             },
             article: {
                 headline: 'This is a headline for important',
@@ -21,7 +22,8 @@ const articles = [
             info: {
                 icon: '',
                 author: '1-Author-Name',
-                links: ['www.google.com', 'www.bing.com']
+                links: ['www.google.com', 'www.bing.com'],
+                date: '11/05/23'
             },
             article: {
                 image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.istockphoto.com%2Fphotos%2Fgrumpy-granny-in-kitchen-with-gun-picture-id471777273&f=1&nofb=1&ipt=003dbab5e7057c0a4199649dfd0f3cc06f6784680125b14ac003653cf44895ed&ipo=images',
@@ -39,7 +41,8 @@ const articles = [
             info: {
                 icon: '',
                 author: '3-Author-Name',
-                links: ['www.google.com', 'www.bing.com']
+                links: ['www.google.com', 'www.bing.com'],
+                date: '11/03/23'
             },
             article: {
                 headline: 'This is a headline for important',
@@ -56,7 +59,8 @@ const articles = [
             info: {
                 icon: '',
                 author: '2-Author-Name',
-                links: ['www.google.com', 'www.bing.com']
+                links: ['www.google.com', 'www.bing.com'],
+                date: '11/05/23'
             },
             article: {
                 image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.istockphoto.com%2Fphotos%2Fold-woman-with-pistol-picture-id484719873&f=1&nofb=1&ipt=9a69fd134d2951be0ebc35f80d193cbbf49775773fba4cb1f406cfd9db9824c6&ipo=images",
@@ -74,7 +78,8 @@ const articles = [
             info: {
                 icon: '',
                 author: '1-Author-Name',
-                links: ['www.google.com', 'www.bing.com']
+                links: ['www.google.com', 'www.bing.com'],
+                date: '11/05/23'
             },
             article: {
                 headline: 'This is a headline for important',

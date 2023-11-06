@@ -132,6 +132,12 @@
     padding-right: 1rem;
 }
 
+.article-body > .date{
+    font-size: .7rem;
+    margin-top: -1rem;
+    color: var(--color-primary-1);
+}
+
 .article-body > h3{
     margin-left: -1rem;
 }

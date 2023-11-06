@@ -17,6 +17,7 @@ const ArticleWeb = (props) => {
             <div className="article-body">
                 {article.image ? <img src={article.image} className="article-image" /> : ''}
                 <h3 className="headline">{article.headline}</h3>
+                <p className="date">{info.date}</p>
                 <p>{article.text}</p>
             </div>
             <div className="interaction-bar">
