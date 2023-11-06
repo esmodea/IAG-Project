@@ -1,6 +1,7 @@
 import React from "react";
 import LinkContainer from "./LinkContainer";
 import { EllipsisOutlined, LikeOutlined, LikeFilled, DislikeFilled, DislikeOutlined, MailOutlined, ShareAltOutlined } from "@ant-design/icons";
+import { Link } from "react-router-dom";
 
 const ArticleWeb = (props) => {
     const {article, info, interaction} = props;
@@ -10,8 +11,8 @@ const ArticleWeb = (props) => {
         <div className="article">
             <div className="info-bar">
                 <div className="icon"></div>
-                <h2>{info.author}</h2>
-                <LinkContainer links={info.links} />
+                <Link to={'/home'}><h2>{info.author}</h2></Link>
+                <LinkContainer links={info.links}/>
             </div>
             <div className="article-body">
                 {article.image ? <img src={article.image} className="article-image" /> : ''}

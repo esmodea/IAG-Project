@@ -114,7 +114,14 @@
     min-width: 19%;
 }
 
-.info-bar > h2 {
+.info-bar > a {
+    width: fit-content;
+    flex-grow: 0;
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
     margin-left: 1rem;
     margin-right: auto;
 }
