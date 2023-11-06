@@ -84,6 +84,10 @@
     transition: .2s;
 }
 
+.article-image{
+    width: 100%;
+}
+
 .info-bar{
     margin-top: 1rem;
     display: flex;
