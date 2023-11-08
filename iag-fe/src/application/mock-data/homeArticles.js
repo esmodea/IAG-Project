@@ -3,7 +3,8 @@ const articles = [
         content: {
             info: {
                 icon: '',
-                author: '3-Author-Name',
+                author: "Author Name (3)",
+                id: '3-Author-Name',
                 links: ['www.google.com', 'www.bing.com'],
                 date: '11/24/21'
             },
@@ -21,7 +22,8 @@ const articles = [
         content: {
             info: {
                 icon: '',
-                author: '1-Author-Name',
+                author: "Author Name (1)",
+                id: '1-Author-Name',
                 links: ['www.google.com', 'www.bing.com'],
                 date: '11/05/23'
             },
@@ -40,7 +42,8 @@ const articles = [
         content: {
             info: {
                 icon: '',
-                author: '3-Author-Name',
+                author: "Author Name (3)",
+                id: '3-Author-Name',
                 links: ['www.google.com', 'www.bing.com'],
                 date: '11/03/23'
             },
@@ -58,7 +61,8 @@ const articles = [
         content: {
             info: {
                 icon: '',
-                author: '2-Author-Name',
+                author: "Author Name (2)",
+                id: '2-Author-Name',
                 links: ['www.google.com', 'www.bing.com'],
                 date: '11/05/23'
             },
@@ -77,7 +81,8 @@ const articles = [
         content: {
             info: {
                 icon: '',
-                author: '1-Author-Name',
+                author: "Author Name (1)",
+                id: '1-Author-Name',
                 links: ['www.google.com', 'www.bing.com'],
                 date: '11/05/23'
             },

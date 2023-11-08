@@ -1,5 +1,5 @@
 import React from "react";
-import ArticleMobile from "./ArticleMobile";
+import ArticleMobile from "../common/ArticleMobile";
 import './homepagemobile.css'
 
 const MHomeContent = (props) => {

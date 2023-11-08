@@ -1,43 +1,51 @@
 const authors = [
     {
-        name: "1-Author-Name",
+        id: "1-Author-Name",
+        name: "Author Name (1)",
         icon: "",
         about: "This is author 1"
     },
     {
-        name: "2-Author-Name",
+        id: "2-Author-Name",
+        name: "Author Name (2)",
         icon: "",
         about: "This is author 2"
     },
     {
-        name: "3-Author-Name",
+        id: "3-Author-Name",
+        name: "Author Name (3)",
         icon: "",
         about: "This is author 3"
     },
     {
-        name: "4-Author-Name",
+        id: "4-Author-Name",
+        name: "Author Name (4)",
         icon: "",
         about: "This is author 4"
     },
     {
-        name: "5-Author-Name",
+        id: "5-Author-Name",
+        name: "Author Name (5)",
         icon: "",
-        about: ""
+        about: "This is author 5"
     },
     {
-        name: "6-Author-Name",
+        id: "6-Author-Name",
+        name: "Author Name (6)",
         icon: "",
-        about: ""
+        about: "This is author 6"
     },
     {
-        name: "7-Author-Name",
+        id: "7-Author-Name",
+        name: "Author Name (7)",
         icon: "",
-        about: ""
+        about: "This is author 7"
     },
     {
-        name: "8-Author-Name",
+        id: "8-Author-Name",
+        name: "Author Name (8)",
         icon: "",
-        about: ""
+        about: "This is author 8"
     },
 ]
 
