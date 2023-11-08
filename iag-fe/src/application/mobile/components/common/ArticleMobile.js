@@ -1,6 +1,6 @@
 import React from "react";
-import InfoRow from "./InfoRow";
-import InteractionRow from "./InteractionRow";
+import InfoRow from "../Home/InfoRow";
+import InteractionRow from "../Home/InteractionRow";
 
 const ArticleMobile = (props) => {
     const {article} = props;
@@ -10,6 +10,7 @@ const ArticleMobile = (props) => {
             <InfoRow icon={article.content.info.icon} links={article.content.info.links} author={article.content.info.author} />
             <h3 className="headline">{article.content.article.headline}</h3>
             {article.content.article.image ? <img className="image" src={`${article.content.article.image}`} /> : ''}
+            <p className="date">{article.content.info.date}</p>
             <p className="article">{article.content.article.text}</p>
             <InteractionRow article={article}/>
         </div>
