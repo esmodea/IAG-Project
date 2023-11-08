@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Navigate, useLocation } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import Header from "../common/Header";
-import './writerpageweb.css'
+import './writerpageweb.css';
 import WritersWidget from "../common/WritersWidget";
 import AboutWidget from "../common/AboutWidget";
 import ArticleWeb from "../common/Article";
@@ -25,13 +25,13 @@ const WWriterContent = () => {
                     {articles.map((post) => {
                         const {article, info, interaction} = post.content;
                         const authorName = location.pathname.split('/')[location.pathname.split('/').length - 1];
-                        if(info.author == authorName)return <ArticleWeb article={article} info={info} interaction={interaction} key={post.key} />;
+                        if(info.id == authorName)return <ArticleWeb article={article} info={info} interaction={interaction} key={post.key} />;
                     })}
                     <div className="layout-div">how did you find this?</div>
                 </div>
                 <div className="page-right">
                     {authors.map((author) => {
-                        if(author.name === location.pathname.split('/')[location.pathname.split('/').length - 1]) return <AboutWidget text={author.about} />;
+                        if(author.id === location.pathname.split('/')[location.pathname.split('/').length - 1]) return <AboutWidget text={author.about} />;
                     })}
                 </div>
             </div>
