@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import HomePageMobile from './application/mobile/pages/HomePageMobile';
 import ShopPageMobile from './application/mobile/pages/ShopPageMobile';
 import UserPageMobile from './application/mobile/pages/UserPageMobile';
+import WriterPageMobile from './application/mobile/pages/WriterPageMobile';
 import HomePageWeb from './application/web/pages/HomePageWeb';
 import WriterPageWeb from './application/web/pages/WriterPageWeb';
 import './application/common/common.css';
@@ -37,8 +38,8 @@ function App() {
       {authors.map((author) => {
         return(
           <>
-            <Route path={`/home/${author.name}`} element={isMobile ? <Navigate to={`/m/home/${author.name}`} />: <WriterPageWeb />} />
-            <Route path={`/m/home/${author.name}`} element={isMobile ? <></> : <Navigate to={`/home/${author.name}`} />} />
+            <Route path={`/writer/${author.id}`} element={isMobile ? <Navigate to={`/m/${author.id}`} />: <WriterPageWeb />} />
+            <Route path={`/m/${author.id}`} element={isMobile ? <WriterPageMobile /> : <Navigate to={`/writer/${author.id}`} />} />
           </>
         )
       })}

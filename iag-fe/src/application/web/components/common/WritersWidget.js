@@ -12,7 +12,7 @@ const WritersWidget = (props) => {
 
     const handleClick = (name) => {
         dispatch(changeWriter({name: name}));
-        navigate(`/home/${name}`)
+        navigate(`/writer/${name}`)
     }
 
     return(
@@ -23,7 +23,7 @@ const WritersWidget = (props) => {
                     return(
                         <li className="writer">
                             <div className="icon"></div>
-                            <button onClick={() => {handleClick(author.name)}} className="name"> {author.name} </button>
+                            <button onClick={() => {handleClick(author.id)}} className="name"> {author.name} </button>
                         </li>
                     )
                 })}
