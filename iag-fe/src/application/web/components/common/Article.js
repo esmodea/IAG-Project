@@ -26,6 +26,7 @@ const ArticleWeb = (props) => {
                     <p>14k</p>
                     <DislikeOutlined />
                 </div>
+                {/* email is: editor@informationagegazette.com */}
                 <button className="mail-button"><MailOutlined /> Email a comment!</button>
                 <button className="share-button"><ShareAltOutlined /> Share</button>
             </div>
