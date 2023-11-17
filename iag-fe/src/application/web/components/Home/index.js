@@ -18,15 +18,21 @@ const WHomeContent = () => {
                 <div className="page-left">
                     <WritersWidget />
                 </div>
-                <div className="page-center">
-                    {articles.map((post) => {
-                        const {article, info, interaction} = post.content;
-                        return <ArticleWeb article={article} info={info} interaction={interaction} key={post.key} />;
-                    })}
-                    <div className="layout-div">how did you find this?</div>
-                </div>
-                <div className="page-right">
-                    <AboutWidget text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
+                <div className="banner-layout-div">
+                    <div className="page-center-right">
+                        <div className="page-center">
+                            {articles.map((post) => {
+                                const {article, info, interaction} = post.content;
+                                return <ArticleWeb article={article} info={info} interaction={interaction} key={post.key} />;
+                            })}
+                            <div className="layout-div">how did you find this?</div>
+                        </div>
+                        <div className="page-right">
+                            <AboutWidget text="Democracy, Freedom, and Human Rights are under attack and in danger. The Information Age Gazzette
+connects the reader with the facts and arguments that they need in order to fight effectively for the
+future of our world." />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

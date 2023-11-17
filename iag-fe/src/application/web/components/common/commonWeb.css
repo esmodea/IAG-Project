@@ -31,10 +31,28 @@
 
 .about-widget{
     background-color: rgba(92, 0, 5, .25);
+    padding-left: 2rem;
     padding: 1rem;
-    padding-top: .2rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
     border-radius: 1.5rem;
+}
+
+.about-widget > * {
+    margin: 1rem;
+}
+
+.about-title {
+    font-family: var(--main-title-family);
+    font-weight: var(--title-weight);
+    font-size: 2rem;
+}
+
+.about-widget > .about-text{
+    font-family: var(--main-text-family);
+    font-weight: var(--main-text-weight);
+    font-style: var(--text-style);
+    font-size: 1.25rem;
+    color: var(--color-secondary-1-1);
 }
 
 /* For responsive right-column layout */
