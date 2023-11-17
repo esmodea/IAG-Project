@@ -22,11 +22,12 @@
 
     --main-text-family: 'Courier Prime', 'DM Serif Display', monospace;
     --main-title-family: 'Abril Fatface', serif;
-    --author-family: 'Playfair Display', serif;
+    --author-family: 'Sen', 'Playfair Display', serif;
     --text-weight: 400;
     --title-weight: 400;
     --author-weight: 600;
     --text-style: italic;
+    --author-style: italic;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=DM+Serif+Display:ital@0;1&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=DM+Serif+Display:ital@0;1&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Sen:wght@400;500;600;700;800&display=swap');
