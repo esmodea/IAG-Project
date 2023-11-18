@@ -1,2 +1,5 @@
 # Local Netlify folder
 .netlify
+
+# Hiding backend folder for non-backend branch (remove once backend is merged)
+/iag-be

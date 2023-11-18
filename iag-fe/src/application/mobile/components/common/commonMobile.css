@@ -145,11 +145,12 @@
     background-color: black;
 }
 
-.author-name{
+.info-row > .author-name{
     font-size: 1rem;
     margin-left: 1rem;
     margin-right: auto;
     color: var(--color-secondary-2-2);
+    position: static;
 }
 
 .citation-links{
