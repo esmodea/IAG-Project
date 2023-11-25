@@ -30,8 +30,8 @@ function App() {
       <Route exact path='/m' element={<Navigate to='/m/home' />} />
       <Route exact path='/' element={<Navigate to='/m' />} />
       <Route path='/m/home' element={isMobile ? <HomePageMobile /> : <Navigate to='/home'/>}/>
-      <Route path='/m/shop' element={isMobile ? <ShopPageMobile /> : <Navigate to='/shop'/>}/>
-      <Route path='/m/user' element={isMobile ? <UserPageMobile /> : <Navigate to='/user'/>}/>
+      {/* <Route path='/m/shop' element={isMobile ? <ShopPageMobile /> : <Navigate to='/shop'/>}/>
+      <Route path='/m/user' element={isMobile ? <UserPageMobile /> : <Navigate to='/user'/>}/> */}
       <Route path='/home' element={isMobile ? <Navigate to='/m/home'/> : <HomePageWeb />}/>
       <Route path='/shop' element={isMobile ? <Navigate to='/m/home'/> : <></>}/>
       <Route path='/user' element={isMobile ? <Navigate to='/m/home'/> : <></>}/>
