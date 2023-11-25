@@ -12,6 +12,11 @@
     position: fixed;
 }
 
+.author-name-article{
+    font-family: var(--author-family);
+    margin-bottom: 3rem;
+}
+
 .logo{
     width: 210px;
     background-image: url('../../../../../public/logo512.png');
@@ -87,6 +92,8 @@
 }
 
 .article{
+    --skew-axis-x: 3deg;
+    --skew-axis-y: 1deg;
     background-color: var(--main-background-0);
     display: flex;
     flex-direction: column;
@@ -94,8 +101,8 @@
     justify-content: flex-start;
     transition: .2s;
     width: 96%;
-    border-radius: 1rem;
     margin-bottom: 2rem;
+    transform: skew(var(--skew-axis-x), var(--skew-axis-y));
 }
 
 .article:hover{
@@ -140,8 +147,9 @@
     background-color: var(--color-secondary-1-2);
     padding: 2rem;
     border-radius: .75rem;
-    border: solid 1px black;
+    border: none;
     opacity: 0;
+    box-shadow: -5px 10px 0px rgba(0, 0, 0, .25);
 }
 
 @keyframes hide {

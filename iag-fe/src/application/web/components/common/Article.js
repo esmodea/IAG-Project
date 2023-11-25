@@ -25,7 +25,7 @@ const ArticleWeb = (props) => {
         <div className="article">
             <div className="info-bar">
                 <div className="icon"></div>
-                <Link to={'/home'}><h2>{info.author}</h2></Link>
+                <Link to={'/home'}><h2 className="author-name-article">{info.author}</h2></Link>
                 <LinkContainer links={info.links}/>
             </div>
             <div className="article-body">

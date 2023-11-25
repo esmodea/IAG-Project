@@ -9,7 +9,6 @@ const HomePageMobile = () => {
         <div id="MobileHomePage">
             <TopBar />
             <MHomeContent articles={articles} />
-            <BottomBar />
         </div>
     )
 } 
