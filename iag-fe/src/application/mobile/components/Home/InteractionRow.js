@@ -24,7 +24,7 @@ const InteractionRow = (props) => {
 
     return (
         <div className="interaction-row">
-        <InteractionButton onClick={() => {onChange('like')}} Icon={button.like ? LikeFilled : LikeOutlined} amount={article.content.interaction.likes} /> <InteractionButton onClick={() => {onChange('dislike')}} Icon={button.dislike ? DislikeFilled : DislikeOutlined} /> <InteractionButton onClick={() => {onChange('mail')}} className={'last-button'} Icon={MailOutlined}/> <InteractionButton Icon={ShareAltOutlined} />
+        <InteractionButton onClick={() => {onChange('mail')}} className={'last-button'} Icon={MailOutlined}/> <InteractionButton Icon={ShareAltOutlined} />
         </div>
     )
 }
