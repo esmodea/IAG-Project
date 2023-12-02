@@ -18,8 +18,10 @@ const ArticleWeb = (props) => {
                 break;
             case 3:
                 setSkewStyle('skew-three')
+                break;
             case 4: 
                 setSkewStyle('skew-four') 
+                break;
         }
     }, [skewStyle])
 
