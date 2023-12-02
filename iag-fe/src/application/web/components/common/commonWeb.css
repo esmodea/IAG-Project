@@ -92,8 +92,6 @@
 }
 
 .article{
-    --skew-axis-x: 3deg;
-    --skew-axis-y: 1deg;
     background-color: var(--main-background-0);
     display: flex;
     flex-direction: column;
@@ -102,6 +100,29 @@
     transition: .2s;
     width: 96%;
     margin-bottom: 2rem;
+}
+
+.article.skew-one{
+    --skew-axis-x: -1deg;
+    --skew-axis-y: 1deg;
+    transform: skew(var(--skew-axis-x), var(--skew-axis-y));
+}
+
+.article.skew-two{
+    --skew-axis-x: 2deg;
+    --skew-axis-y: 1deg;
+    transform: skew(var(--skew-axis-x), var(--skew-axis-y));
+}
+
+.article.skew-three{
+    --skew-axis-x: -2deg;
+    --skew-axis-y: 1deg;
+    transform: skew(var(--skew-axis-x), var(--skew-axis-y));
+}
+
+.article.skew-four{
+    --skew-axis-x: 1deg;
+    --skew-axis-y: 1deg;
     transform: skew(var(--skew-axis-x), var(--skew-axis-y));
 }
 

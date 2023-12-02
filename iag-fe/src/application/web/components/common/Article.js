@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import LinkContainer from "./LinkContainer";
 import { EllipsisOutlined, LikeOutlined, LikeFilled, DislikeFilled, DislikeOutlined, MailOutlined, ShareAltOutlined } from "@ant-design/icons";
 import { Link, useNavigate } from "react-router-dom";
@@ -6,6 +6,24 @@ import { Link, useNavigate } from "react-router-dom";
 const ArticleWeb = (props) => {
     const {article, info, interaction} = props;
     const [copyState, setCopyState] = useState({animation: 'hide 1s infinite'});
+    const [skewStyle, setSkewStyle] = useState('')
+
+    useEffect(() => {
+        switch(Math.ceil(Math.random() * 4)){
+            case 1:
+                setSkewStyle('skew-one')
+                break;
+            case 2:
+                setSkewStyle('skew-two')
+                break;
+            case 3:
+                setSkewStyle('skew-three')
+                break;
+            case 4: 
+                setSkewStyle('skew-four') 
+                break;
+        }
+    }, [skewStyle])
 
     const onClickMail = (e) => {
         navigator.clipboard.writeText('editor@informationagegazette.com');
@@ -22,7 +40,7 @@ const ArticleWeb = (props) => {
     };
 
     return (
-        <div className="article">
+        <div className={`article ${skewStyle}`}>
             <div className="info-bar">
                 <div className="icon"></div>
                 <Link to={'/home'}><h2 className="author-name-article">{info.author}</h2></Link>
