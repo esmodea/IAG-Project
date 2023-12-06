@@ -120,6 +120,7 @@
     font-weight: var(--author-weight);
     font-style: var(--author-style);
     font-size: 3rem;
+    color: var(--color-secondary-2-2);
 }
 
 .writer-web > .page-layout-div > .banner-layout-div > .page-center-right > .page-center{
