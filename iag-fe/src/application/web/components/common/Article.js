@@ -50,7 +50,11 @@ const ArticleWeb = (props) => {
                 {article.image ? <img src={article.image} className="article-image" /> : ''}
                 <h3 className="headline">{article.headline}</h3>
                 <p className="date">{info.date}</p>
-                <p className="article-text">{article.text}</p>
+                {article.text.split("br/").map((text) => {
+                    return(
+                        <p className="article-text">{text}</p>
+                    )
+                })}
             </div>
             <div className="interaction-bar">
                 <div className="like-div">
