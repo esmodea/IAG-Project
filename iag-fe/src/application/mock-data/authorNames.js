@@ -18,34 +18,16 @@ const authors = [
         about: "This is author 3"
     },
     {
-        id: "4-Author-Name",
-        name: "Author Name (4)",
+        id: "jane-whimsey",
+        name: "Jane Whimsey",
         icon: "",
-        about: "This is author 4"
+        about: "I am Jane Whimsey, and I hold a grudge."
     },
     {
-        id: "5-Author-Name",
-        name: "Author Name (5)",
+        id: "marvin-rider",
+        name: "Marvin Rider",
         icon: "",
-        about: "This is author 5"
-    },
-    {
-        id: "6-Author-Name",
-        name: "Author Name (6)",
-        icon: "",
-        about: "This is author 6"
-    },
-    {
-        id: "7-Author-Name",
-        name: "Author Name (7)",
-        icon: "",
-        about: "This is author 7"
-    },
-    {
-        id: "8-Author-Name",
-        name: "Author Name (8)",
-        icon: "",
-        about: "This is author 8"
+        about: "Marvin is a chemical drenched culture warrior, ready to take up arms. He seeks to shine a white-hot light on the human condition at is best, its worst, and at its weirdest. Jaded to the core, his optimism comes across with dark and sometimes nasty humor."
     },
 ]
 
