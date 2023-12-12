@@ -9,3 +9,21 @@
     height: 90vh;
     overflow: auto;
 }
+
+.interaction-amount{
+    font-size: 1rem;
+    padding: 0px;
+    margin-right: 1rem;
+}
+
+.interaction-icon{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+* > .interaction-button{
+    display: flex;
+    padding: 0px;
+    justify-content: space-around;
+    align-items: center;
+}
