@@ -1,23 +1,5 @@
 const authors = [
     {
-        id: "1-Author-Name",
-        name: "Author Name (1)",
-        icon: "",
-        about: "This is author 1"
-    },
-    {
-        id: "2-Author-Name",
-        name: "Author Name (2)",
-        icon: "",
-        about: "This is author 2"
-    },
-    {
-        id: "3-Author-Name",
-        name: "Author Name (3)",
-        icon: "",
-        about: "This is author 3"
-    },
-    {
         id: "jane-whimsey",
         name: "Jane Whimsey",
         icon: "",

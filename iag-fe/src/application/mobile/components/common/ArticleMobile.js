@@ -11,7 +11,9 @@ const ArticleMobile = (props) => {
             <h3 className="headline">{article.content.article.headline}</h3>
             {article.content.article.image ? <img className="image" src={`${article.content.article.image}`} /> : ''}
             <p className="date">{article.content.info.date}</p>
-            <p className="article">{article.content.article.text}</p>
+            {article.content.article.text.split('br/').map((text) => {
+                return <p className="article">{text}</p>
+            })}
             <InteractionRow article={article}/>
         </div>
     )
