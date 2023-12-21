@@ -11,6 +11,12 @@ const authors = [
         icon: "",
         about: "Marvin is a chemical drenched culture warrior, ready to take up arms. He seeks to shine a white-hot light on the human condition at is best, its worst, and at its weirdest. Jaded to the core, his optimism comes across with dark and sometimes nasty humor."
     },
+    {
+        id: "mgc-traveler",
+        name: "MGC Traveler",
+        icon: "",
+        about: ""
+    }
 ]
 
 export default authors;
