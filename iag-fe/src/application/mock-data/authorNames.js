@@ -15,7 +15,7 @@ const authors = [
         id: "mgc-traveler",
         name: "MGC Traveler",
         icon: "",
-        about: ""
+        about: "MGC Traveler is a gentler, more thoughtful voice. He seeks the deeper meaning of Life, the Universe, and Everything."
     }
 ]
 
