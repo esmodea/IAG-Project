@@ -35,14 +35,16 @@ function App() {
       <Route path='/home' element={isMobile ? <Navigate to='/m/home'/> : <HomePageWeb />}/>
       <Route path='/shop' element={isMobile ? <Navigate to='/m/home'/> : <></>}/>
       <Route path='/user' element={isMobile ? <Navigate to='/m/home'/> : <></>}/>
-      {authors.map((author) => {
+      {authors.map((author, idx) => {
         return(
-          <>
-            <Route path={`/writer/${author.id}`} element={isMobile ? <Navigate to={`/m/${author.id}`} />: <WriterPageWeb />} />
-            <Route path={`/m/${author.id}`} element={isMobile ? <WriterPageMobile /> : <Navigate to={`/writer/${author.id}`} />} />
-          </>
+          <Route key={idx * 136} path={`/m/${author.id}`} element={isMobile ? <WriterPageMobile /> : <Navigate to={`/writer/${author.id}`} />} />
         )
       })}
+      {authors.map((author, idx) => {
+        return(
+          <Route key={idx * 127} path={`/writer/${author.id}`} element={isMobile ? <Navigate to={`/m/${author.id}`} />: <WriterPageWeb />} />
+        )
+      })}            
     </Routes>
   );
 }
