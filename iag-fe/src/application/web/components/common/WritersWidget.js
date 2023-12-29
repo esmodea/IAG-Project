@@ -22,7 +22,7 @@ const WritersWidget = (props) => {
                 {authors.map((author, idx) => {
                     return(
                         <li key={idx * 13245} className="writer">
-                            <div className="icon"></div>
+                            <div><div className="icon"></div></div> {/* a spacing div around the icon */}
                             <button onClick={() => {handleClick(author.id)}} className="name"> {author.name} </button>
                         </li>
                     )
