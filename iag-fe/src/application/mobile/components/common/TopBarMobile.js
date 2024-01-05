@@ -39,8 +39,8 @@ const TopBar = () => {
                     {authors.map((author) => {
                         return (
                             <Link onClick={() => {dispatch(changeWriter(author.id))}} to={`/m/${author.id}`}>
-                                <button onClick={() => handleFilter()} className="author-link">
-                                    <img src={author.icon ? author.icon : 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpluspng.com%2Fimg-png%2Fuser-png-icon-big-image-png-2240.png&f=1&nofb=1&ipt=cafcb6879a4aeebc9133d30076bb8a328ad5b65b3aa97b1b5b651a7dc7c6078d&ipo=images'} className="icon" />
+                                <button onClick={() => handleFilter()} className="author-link override">
+                                    <img src={author.icon} className="icon override" />
                                     {author.name}
                                 </button>
                             </Link>
