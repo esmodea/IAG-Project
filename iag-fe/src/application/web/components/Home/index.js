@@ -34,7 +34,7 @@ const WHomeContent = () => {
     }
 
     const posts = articles.sort(sortDate);
-    console.log(posts)
+    console.log(posts);
 
     return(
         <div className="home-web">
