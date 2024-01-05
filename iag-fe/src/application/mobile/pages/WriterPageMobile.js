@@ -17,7 +17,6 @@ const WriterPageMobile = () => {
                 <h1 className="writer-name">{location.pathname.split('/')[location.pathname.split('/').length - 1].split('-').join(' ')}</h1>
             </div>
             <MWriterContent articles={articles} writerName={writerState} />
-            <BottomBar />
         </div>
     )
 } 
