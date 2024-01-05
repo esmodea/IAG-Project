@@ -37,7 +37,7 @@
 }
 
 .bottom-bar-icon{
-    font-size: 2rem;
+    font-size: 1rem;
     margin: auto;
     width: min-content;
     height: min-content;
@@ -117,11 +117,35 @@
     padding: 1rem;
     color: var(--color-secondary-2-2);
     font-size: 2.5rem;
+    width: 80vw;
+    overflow-wrap: break-word;
+}
+
+.author-link.override{
+    text-decoration: none;
+    background-color: var(--color-secondary-1-2);
+    border-radius: .5rem;
+    border: none;
+    margin-top: 3rem;
+    padding: 1rem;
+    color: var(--color-secondary-2-2);
+    font-size: 2.5rem;
+    width: 80vw;
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+
+.icon.override{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 10rem;
+    background-color: gray;
+    margin-right: .5rem;
 }
 
 .icon{
-    width: 3rem;
-    height: 3rem;
+    width: 1rem;
+    height: 1rem;
     border-radius: 10rem;
     background-color: gray;
     margin-right: .5rem;
