@@ -8,3 +8,15 @@
     background-color: var(--main-background-0);
     min-height: 85vh;
 }
+
+.writer-name{
+    color: var(--color-secondary-2-2);
+    font-size: 3rem;
+    font-family: var(--author-family);
+}
+
+* > div.writer-banner{
+    position: fixed;
+    top: 5.5rem;
+    height: 5.5rem;
+}
