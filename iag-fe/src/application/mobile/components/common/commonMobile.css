@@ -142,7 +142,9 @@
     width: 3rem;
     height: 3rem;
     border-radius: 1.5rem;
-    background-color: black;
+    background-color: grey;
+    background-image: url('../../../../../public/profile-picture.png');
+    background-size: contain;
 }
 
 .info-row > .author-name{
