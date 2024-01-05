@@ -14,27 +14,21 @@ const WHomeContent = () => {
     const sortDate = (a, b) => {
         let aDate = a.content.info.date.split('/').map((num) => {return +num;});
         let bDate = b.content.info.date.split('/').map((num) => {return +num;});
-        console.log(aDate, 'a-date', bDate, 'b-date');
         if(aDate[2] >= bDate[2]){
             if(aDate[0] >= bDate[0]){
                 if(aDate[1] >= bDate[1]){
                     if(aDate[1] > bDate[1]){
-                        console.log('sorted after');
                         return -1;
                     } else {
-                        console.log('not sorted');
                         return 0;
                     }
                 } else {
-                    console.log('sorted before');
                     return 1;
                 }
             } else {
-                console.log('sorted before');
                 return 1;
             }
         } else {
-            console.log('sorted before');
             return 1;
         }
     }
