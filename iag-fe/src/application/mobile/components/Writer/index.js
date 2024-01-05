@@ -9,9 +9,9 @@ const MWriterContent = (props) => {
     const currentWriter = location.pathname.split('/')[location.pathname.split('/').length - 1];
 
     return (
-        <div className="home-mobile">
-        {articles ? articles.map((article) => {if(article.content.info.id === currentWriter)return <ArticleMobile article={article} />}) : ''}
-        <div className="spacing-div"></div>
+        <div className="writer-mobile">
+            {articles ? articles.map((article) => {if(article.content.info.id === currentWriter)return <ArticleMobile article={article} />}) : ''}
+            <div className="spacing-div"></div>
         </div>
     )
 }
