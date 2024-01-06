@@ -5,9 +5,33 @@ import './homepagemobile.css'
 const MHomeContent = (props) => {
     const {articles} = props;
 
+    const sortDate = (a, b) => {
+        let aDate = a.content.info.date.split('/').map((num) => {return +num;});
+        let bDate = b.content.info.date.split('/').map((num) => {return +num;});
+        if(aDate[2] >= bDate[2]){
+            if(aDate[0] >= bDate[0]){
+                if(aDate[1] >= bDate[1]){
+                    if(aDate[1] > bDate[1]){
+                        return -1;
+                    } else {
+                        return 0;
+                    }
+                } else {
+                    return 1;
+                }
+            } else {
+                return 1;
+            }
+        } else {
+            return 1;
+        }
+    }
+
+    const posts = articles.sort(sortDate);
+
     return (
         <div className="home-mobile">
-        {articles ? articles.map((article) => {return <ArticleMobile article={article} />}) : ''}
+        {posts ? posts.map((article) => {return <ArticleMobile article={article} />}) : ''}
         {/* <div className="spacing-div"></div> */}
         </div>
     )

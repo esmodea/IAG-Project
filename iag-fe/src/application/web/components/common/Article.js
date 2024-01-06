@@ -4,12 +4,11 @@ import { EllipsisOutlined, LikeOutlined, LikeFilled, DislikeFilled, DislikeOutli
 import { Link, useNavigate } from "react-router-dom";
 
 const ArticleWeb = (props) => {
-    const {article, info, interaction} = props;
+    const {article, info, interaction, id} = props;
     const [copyState, setCopyState] = useState({animation: 'hide 1s infinite'});
     const [skewStyle, setSkewStyle] = useState('')
-
     useEffect(() => {
-        switch(Math.ceil(Math.random() * 4)){
+        switch(id + 4 % 4){
             case 1:
                 setSkewStyle('skew-one')
                 break;
@@ -19,8 +18,8 @@ const ArticleWeb = (props) => {
             case 3:
                 setSkewStyle('skew-three')
                 break;
-            case 4: 
-                setSkewStyle('skew-four') 
+            case 0: 
+                setSkewStyle('skew-four')
                 break;
         }
     }, [skewStyle])
@@ -40,7 +39,7 @@ const ArticleWeb = (props) => {
     };
 
     return (
-        <div className={`article ${skewStyle}`}>
+        <div key={id * 135} className={`article ${skewStyle}`}>
             <div className="info-bar">
                 <div className="icon"></div>
                 <Link to={'/home'}><h2 className="author-name-article">{info.author}</h2></Link>
@@ -50,9 +49,9 @@ const ArticleWeb = (props) => {
                 {article.image ? <img src={article.image} className="article-image" /> : ''}
                 <h3 className="headline">{article.headline}</h3>
                 <p className="date">{info.date}</p>
-                {article.text.split("br/").map((text) => {
+                {article.text.split("br/").map((text, idx) => {
                     return(
-                        <p className="article-text">{text}</p>
+                        <p key={(id + 1) * idx} className="article-text">{text}</p>
                     )
                 })}
             </div>

@@ -19,10 +19,10 @@ const WritersWidget = (props) => {
         <div className="writer-widget">
             <h5 className="writer-list-title">Writers</h5>
             <ul className="writer-list">
-                {authors.map((author) => {
+                {authors.map((author, idx) => {
                     return(
-                        <li className="writer">
-                            <div className="icon"></div>
+                        <li key={idx * 13245} className="writer">
+                            <div><div className="icon"></div></div> {/* a spacing div around the icon */}
                             <button onClick={() => {handleClick(author.id)}} className="name"> {author.name} </button>
                         </li>
                     )

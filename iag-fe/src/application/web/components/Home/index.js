@@ -9,7 +9,32 @@ import ArticleWeb from "../common/Article";
 import articles from "../../../mock-data/homeArticles";
 
 const WHomeContent = () => {
-    const writerState = useSelector((state) => state.currentWriter)
+    const writerState = useSelector((state) => state.currentWriter);
+
+    const sortDate = (a, b) => {
+        let aDate = a.content.info.date.split('/').map((num) => {return +num;});
+        let bDate = b.content.info.date.split('/').map((num) => {return +num;});
+        if(aDate[2] >= bDate[2]){
+            if(aDate[0] >= bDate[0]){
+                if(aDate[1] >= bDate[1]){
+                    if(aDate[1] > bDate[1]){
+                        return -1;
+                    } else {
+                        return 0;
+                    }
+                } else {
+                    return 1;
+                }
+            } else {
+                return 1;
+            }
+        } else {
+            return 1;
+        }
+    }
+
+    const posts = articles.sort(sortDate);
+    console.log(posts);
 
     return(
         <div className="home-web">
@@ -21,9 +46,9 @@ const WHomeContent = () => {
                 <div className="banner-layout-div">
                     <div className="page-center-right">
                         <div className="page-center">
-                            {articles.map((post) => {
+                            {posts.map((post) => {
                                 const {article, info, interaction} = post.content;
-                                return <ArticleWeb article={article} info={info} interaction={interaction} key={post.key} />;
+                                return <ArticleWeb article={article} info={info} interaction={interaction} id={+post.key} key={+post.key} />;
                             })}
                             <div className="layout-div">how did you find this?</div>
                         </div>

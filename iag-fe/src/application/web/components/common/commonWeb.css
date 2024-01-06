@@ -25,7 +25,9 @@
 }
 
 .icon{
-    background-color: darkgray;
+    background-image: url('../../../../../public/profile-picture.png');
+    width: 3em;
+    height: 3em;
 }
 
 .login-button{
@@ -200,9 +202,9 @@
     margin-left: 1rem;
 }
 
-.writer > .icon {
-    width: 2rem;
-    height: 2rem;
+.writer > * > .icon {
+    width: 2em;
+    height: 2em;
     min-width: 19%;
 }
 
