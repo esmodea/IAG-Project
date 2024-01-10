@@ -34,7 +34,13 @@ const MWriterContent = (props) => {
 
     return (
         <div className="writer-mobile">
-            {posts ? posts.map((article) => {if(article.content.info.id === currentWriter)return <ArticleMobile article={article} />}) : ''}
+            {posts ? posts.map((article) => {
+                if(article.content.info.id === currentWriter){
+                return <ArticleMobile article={article} />
+                } else {
+                    return '';
+                }
+            }) : ''}
             <div className="spacing-div"></div>
         </div>
     )

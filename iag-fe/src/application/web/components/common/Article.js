@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import LinkContainer from "./LinkContainer";
-import { EllipsisOutlined, LikeOutlined, LikeFilled, DislikeFilled, DislikeOutlined, MailOutlined, ShareAltOutlined } from "@ant-design/icons";
-import { Link, useNavigate } from "react-router-dom";
+import { LikeOutlined, DislikeOutlined, MailOutlined, ShareAltOutlined } from "@ant-design/icons";
+import { Link } from "react-router-dom";
 
 const ArticleWeb = (props) => {
-    const {article, info, interaction, id} = props;
+    const {article, info, id} = props;
     const [copyState, setCopyState] = useState({animation: 'hide 1s infinite'});
     const [skewStyle, setSkewStyle] = useState('')
     useEffect(() => {
@@ -21,8 +21,10 @@ const ArticleWeb = (props) => {
             case 0: 
                 setSkewStyle('skew-four')
                 break;
+            default: 
+                break;
         }
-    }, [skewStyle])
+    }, [skewStyle, id])
 
     const onClickMail = (e) => {
         navigator.clipboard.writeText('editor@informationagegazette.com');
@@ -46,7 +48,7 @@ const ArticleWeb = (props) => {
                 <LinkContainer links={info.links}/>
             </div>
             <div className="article-body">
-                {article.image ? <img src={article.image} className="article-image" /> : ''}
+                {article.image ? <img src={article.image} alt="from-article" className="article-image" /> : ''}
                 <h3 className="headline">{article.headline}</h3>
                 <p className="date">{info.date}</p>
                 {article.text.split("br/").map((text, idx) => {

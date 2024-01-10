@@ -3,7 +3,7 @@ import InteractionButton from "./InteractionButton";
 import { MailOutlined, ShareAltOutlined } from "@ant-design/icons";
 
 const InteractionRow = (props) => {
-    const {article} = props;
+    // const {article} = props;
     const [button, setButton] = useState(
         {
             like: false,
