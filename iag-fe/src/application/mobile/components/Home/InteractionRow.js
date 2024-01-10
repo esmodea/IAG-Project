@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import InteractionButton from "./InteractionButton";
-import { LikeOutlined, LikeFilled, DislikeOutlined, DislikeFilled, MailOutlined, MailFilled, ShareAltOutlined } from "@ant-design/icons";
+import { MailOutlined, ShareAltOutlined } from "@ant-design/icons";
 
 const InteractionRow = (props) => {
     const {article} = props;
