@@ -24,7 +24,6 @@
     "morgan": "^1.9",
     "npm-run-all": "^4.1",
     "nth-check": "^2.1.1",
-    "netlify-cli": "^17.11.1",
     "postcss": "^8.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -37,7 +36,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm i && netlify init && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -61,6 +60,7 @@
   },
   "devDependencies": {
     "create-react-app": "^5.0.1",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "netlify-cli": "^17.11.1"
   }
 }
