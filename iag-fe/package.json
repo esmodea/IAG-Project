@@ -1,6 +1,6 @@
 {
   "name": "iag-fe",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^5.0.1",
@@ -37,7 +37,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm i && netlify build",
+    "build": "npm i && netlify init && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
