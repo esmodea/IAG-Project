@@ -5,7 +5,7 @@ const articles = [
                 icon: '',
                 author: "Jane Whimsey",
                 id: 'jane-whimsey',
-                links: ['www.google.com', 'www.bing.com'],
+                links: ['https://manhattanda.org/district-attorney-bragg-announces-34-count-felony-indictment-of-former-president-donald-j-trump/', 'https://www.manhattanda.org/wp-content/uploads/2023/04/Donald-J.-Trump-Indictment.pdf', 'https://www.documentcloud.org/documents/23741570-new-york-v-trump-indictment', 'https://en.wikipedia.org/wiki/Prosecution_of_Donald_Trump_in_New_York', 'https://abcnews.go.com/Politics/timeline-manhattan-district-attorney-case-donald-trump/story?id=98389444', 'https://www.cbsnews.com/news/donald-trump-investigations-new-york-fulton-county-georgia-special-counsel/', 'https://www.nytimes.com/interactive/2023/04/04/nyregion/trump-indictment-annotated.html', 'https://www.npr.org/2023/04/04/1167708172/trump-charges-hush-money-new-york-indictment', 'https://www.cbsnews.com/news/trump-indictments-details-guide-charges-trial-dates-people-case/', 'https://www.cnn.com/2023/03/30/politics/donald-trump-indictment/index.html', 'https://www.cnbc.com/2023/03/31/trump-indicted-ny-grand-jury.html'],
                 date: '11/05/23'
             },
             article: {
@@ -28,7 +28,7 @@ const articles = [
                 icon: '',
                 author: "Marvin Rider",
                 id: 'marvin-rider',
-                links: ['www.google.com', 'www.bing.com'],
+                links: [],
                 date: '11/05/23'
             },
             article: {

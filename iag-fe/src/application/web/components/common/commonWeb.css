@@ -295,6 +295,8 @@
     flex-direction: column;
     justify-content: space-around;
     z-index: 1;
+    overflow: auto;
+    height: 20rem;
 }
 
 .hide{
