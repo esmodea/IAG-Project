@@ -1,8 +1,6 @@
-import { Route, Routes, Navigate, useLocation } from 'react-router-dom';
+import { Route, Routes, Navigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import HomePageMobile from './application/mobile/pages/HomePageMobile';
-import ShopPageMobile from './application/mobile/pages/ShopPageMobile';
-import UserPageMobile from './application/mobile/pages/UserPageMobile';
 import WriterPageMobile from './application/mobile/pages/WriterPageMobile';
 import HomePageWeb from './application/web/pages/HomePageWeb';
 import WriterPageWeb from './application/web/pages/WriterPageWeb';

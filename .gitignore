@@ -3,3 +3,4 @@
 
 # Hiding backend folder for non-backend branch (remove once backend is merged)
 /iag-be
+/iag-fe/node_modules

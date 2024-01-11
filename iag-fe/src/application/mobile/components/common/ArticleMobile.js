@@ -9,7 +9,7 @@ const ArticleMobile = (props) => {
         <div className="article-group">
             <InfoRow icon={article.content.info.icon} links={article.content.info.links} author={article.content.info.author} />
             <h3 className="headline">{article.content.article.headline}</h3>
-            {article.content.article.image ? <img className="image" src={`${article.content.article.image}`} /> : ''}
+            {article.content.article.image ? <img className="image" alt="from-article" src={`${article.content.article.image}`} /> : ''}
             <p className="date">{article.content.info.date}</p>
             {article.content.article.text.split('br/').map((text) => {
                 return <p className="article">{text}</p>

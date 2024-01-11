@@ -1,6 +1,4 @@
-import React, { useEffect } from "react";
-import { Navigate } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
+import React from "react";
 import Header from "../common/Header";
 import './homepageweb.css'
 import WritersWidget from "../common/WritersWidget";
@@ -9,7 +7,6 @@ import ArticleWeb from "../common/Article";
 import articles from "../../../mock-data/homeArticles";
 
 const WHomeContent = () => {
-    const writerState = useSelector((state) => state.currentWriter);
 
     const sortDate = (a, b) => {
         let aDate = a.content.info.date.split('/').map((num) => {return +num;});

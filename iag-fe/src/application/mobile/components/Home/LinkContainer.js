@@ -13,7 +13,7 @@ const LinkContainer = (props) => {
         <div className="citation-links">
             <EllipsisOutlined className="citation-button" onClick={clickLinksMenu} />
             <div className={`citation-menu ${displayMenu ? '' : 'hide'}`}>
-                {links ? links.map((link, idx) => {return(<div className="citation-link" key={'1' + idx}><a target="_blank" href={`https://${link}`}>{link}</a></div>)}) : ''}
+                {links ? links.map((link, idx) => {return(<div className="citation-link" key={'1' + idx}><a target="_blank" rel="noreferrer" href={`https://${link}`}>{link}</a></div>)}) : ''}
             </div>
         </div>
     )
