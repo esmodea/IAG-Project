@@ -16,7 +16,7 @@
 }
 
 .layout-div{
-    height: 2vh;
+    min-height: 10vh;
     background-color: var(--main-background-0);
     color: var(--main-background-0);
 }
@@ -35,6 +35,9 @@
 }
 
 .page-center{
+    position: fixed;
+    top: 4.5rem;
+    left: calc(100vw / 2 - 25vw);
     width: 50vw;
     height: calc(100vh - 4rem);
     z-index: 1;
@@ -50,6 +53,8 @@
 }
 
 .page-right{
+    position: fixed;
+    right: 2vw;
     width: 20vw;
     height: calc(100vh - 4rem);
     z-index: 1;
