@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import InteractionButton from "./InteractionButton";
 import { MailOutlined, ShareAltOutlined } from "@ant-design/icons";
 
@@ -14,14 +14,14 @@ const InteractionRow = (props) => {
     //     }
     //     );
     
+    const toggleCopyDialogue = useCallback(() => {
+        setCopyBool(!copyBool)
+    }, [copyBool]);
+    
     useEffect(() => {
         copyBool ? setCopyClass('hidden away') : setCopyClass('visible');
         if(!copyBool)window.setTimeout(toggleCopyDialogue, 1000);
-    }, [copyBool])
-
-    const toggleCopyDialogue = () => {
-        setCopyBool(!copyBool)   
-    }
+    }, [copyBool, toggleCopyDialogue])
 
     const onChange = (buttonType) => {
         // if(buttonType === 'like'){
