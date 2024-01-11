@@ -15,6 +15,7 @@ function App() {
       setWidth(window.innerWidth);
   }
   useEffect(() => {
+      document.title = "IAG News"
       window.addEventListener('resize', handleWindowSizeChange);
       return () => {
           window.removeEventListener('resize', handleWindowSizeChange);
