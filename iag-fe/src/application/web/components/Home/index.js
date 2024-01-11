@@ -31,7 +31,6 @@ const WHomeContent = () => {
     }
 
     const posts = articles.sort(sortDate);
-    console.log(posts);
 
     return(
         <div className="home-web">
@@ -42,6 +41,8 @@ const WHomeContent = () => {
                 </div>
                 <div className="banner-layout-div">
                     <div className="page-center-right">
+                        <div className="layout-div"></div>
+                        <div className="layout-div"></div>
                         <div className="page-center">
                             {posts.map((post) => {
                                 const {article, info, interaction} = post.content;

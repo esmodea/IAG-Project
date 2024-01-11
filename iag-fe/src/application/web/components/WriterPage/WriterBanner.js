@@ -11,7 +11,7 @@ const WriterBanner = (props) => {
     useEffect(() => {
         document.onkeydown = (e) => {
             if(e.key === 'f'){
-                console.log(document.getElementsByClassName('writer-banner')[0].className);
+                console.log(document.getElementsByClassName('web-writer-banner')[0].className);
             }
         }
         let scrollingDiv = document.getElementsByClassName('page-center')[0];
@@ -37,12 +37,12 @@ const WriterBanner = (props) => {
 
     return (
         <>
-        <div id="banner" className={`writer-banner ${isHidden ? 'hide-banner' : ''} ${hideScroll ? 'hide-scroll' : ''}`}>
+        <div id="banner" className={`web-writer-banner ${isHidden ? 'hide-banner' : ''} ${hideScroll ? 'hide-scroll' : ''}`}>
             <div className="icon"></div>
             <div className="icon-bar"></div>
             <h1 className="author-name">{authorName}</h1>
         </div>
-        <p className={`scroll-notif ${hideScroll ? 'hide-scroll' : ''}`} style={{fontSize: '2rem'}}>Scroll Down For Articles! <br /> <ArrowDownOutlined style={{fontSize: '2rem'}} /></p>
+        <p className={`scroll-notif ${hideScroll ? 'hide-scroll' : ''}`} style={{fontFamily: 'var(--main-text-family)', fontSize: '2.25rem', paddingTop: '1rem'}}>Scroll down for more articles! <br /> <ArrowDownOutlined style={{fontSize: '2rem'}} /></p>
         </>
     )
 }
