@@ -204,6 +204,19 @@
     display: none;
 }
 
+.hidden{
+    opacity: 0;
+}
+
+.away{
+    top: -50rem;
+}
+
+.visible{
+    opacity: 100;
+    top: 40vh;
+}
+
 .citation-link{
     margin-top: .1rem;
     margin-bottom: .1rem;
@@ -322,4 +335,17 @@
 
 :root{
     background-color: var(--main-background-0);
+}
+
+.copy-dialogue{
+    transition: .5s;
+    position: fixed;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    background-color: rgba(2, 45, 59, .8);
+    padding: 3rem;
+    font-size: 3rem;
+    border-radius: .5rem;
+    pointer-events: none;
 }
