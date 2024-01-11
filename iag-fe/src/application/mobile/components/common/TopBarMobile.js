@@ -27,7 +27,7 @@ const TopBar = () => {
     
     useEffect(() => {
         setRedButton(window.location.pathname)
-    }, [window.location.pathname])
+    }, [])
 
     return (
         <>
