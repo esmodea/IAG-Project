@@ -9,7 +9,7 @@ const articles = [
                 date: '11/05/23'
             },
             article: {
-                headline: 'The Crimes of Donald Trump by Jane Whimsey #1 New York v Donald John Trump',
+                headline: 'The Crimes of Donald Trump #1 New York v Donald John Trump',
                 text: `It really doesn’t get more tawdry than this. A rich man behaving badly, using his money and connections to hide is sleazy deeds, directing and taking part in an illegal scheme to cover it all up. New York has all the proof, and it paints a disgusting picture of a Donald Trump, who obviously feels he should never face the consequences for his many bad actions. br/
                 On March 30th 2023 D.A. Alvin Bragg announced the indictment of Donald John Trump on 34 counts of falsifying records with the intent to defraud the people of the state of New York while committing another crime. br/
                 Donald didn’t want people to know that he cheats on his wives, a lot. Then candidate Trump needed to hide the fact that he had a child out of wedlock, had a sexual relationship with a playmate, and fucked a porn star. It is the sort of information that could have sunk his hopes of the Presidency. br/                
