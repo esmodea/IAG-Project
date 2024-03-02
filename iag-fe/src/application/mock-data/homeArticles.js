@@ -75,6 +75,30 @@ const articles = [
             }
         },
         key: 3
+    },{
+        content: {
+            info: {
+                icon: '',
+                author: "The Apostate",
+                id: 'the-apostate',
+                links: ['https://www.space.com/24054-how-old-is-the-universe.html','https://education.nationalgeographic.org/resource/resource-library-age-earth/','https://www.letu.edu/academics/arts-and-sciences/files/age-of-earth.pdf','https://answersingenesis.org/age-of-the-earth/how-old-is-the-earth/','https://ncse.ngo/yes-noahs-flood-may-have-happened-not-over-whole-earth','https://en.wikipedia.org/wiki/Genesis_flood_narrative','https://www.livescience.com/human-behavior/religion/did-noahs-flood-really-happen','https://www.smithsonianmag.com/science-nature/evidence-for-a-flood-102813115/','https://bibleinterp.arizona.edu/articles/flood357903'],
+                date: '3/2/24'
+            },
+            article: {
+                headline: 'Modern Religion #1: It’s Just so Dumb',
+                text: `
+                One of the main problems with dealing with religion in America is the Bible.  How and why are we supposed to take this crap seriously?  If you cannot prove it with science or empirical evidence, it isn’t real.  It just isn’t.  If not attached to a worldwide organization, it would be considered mental illness to believe b  iblical stories as fact. br/
+Modern christianity is a whole system of Faith Illogical.  It is really disturbing that these religious crazies use this “faith” to apply to life decisions and political affiliation. We are literally surrounded by insanity, and we are told to accept it as the ultimate truth.  br/
+There are so many absolute gems in the Bible.  Perhaps the best place to start is with creation.  According to all reputable scientists, the Universe is somewhere near 13.8 billion years old, and the Earth is a little under 4.5 billion years old.  There is absolutely no chance that the Earth is 6 thousand years old, no matter what the Bible says. Anyone who believes so, is a few billion years off the mark.  The science on this is deep, wide, and clear.  br/
+Noah’s Ark is another fantastic example of absolute insanity.  Just about everything in the Noah story is impossible. Noah could not have been 950 years old.  There was never a worldwide flood.  No boat or ship ever built could hold two of every animal on Earth, not even if it was built in cubits.  No way a single family could take care of a pair of everything.  Where would the poop go?  How could they feed them?  For that matter how did any fish survive when the freshwater rains connected the seas, leaving nothing on the planet but brackish water?  None of it happened.  It is a crazy story. br/
+The Bible is full of crackpottery. You will find fireproof men, a lionproof hero, a long-haired Superman, a flying chariot, a flying man, a man swallowed by a fish and puked up alive 3 days later, a bet between God and the Devil, and a woman getting pregnant without sex.  So much of “The Book” is primitive mythology, and yet we are expected to put aside logic, science, and evidence, shut up, bow our heads, and swallow that bullshit sandwich. 
+`,
+            },
+            interaction: {
+                likes: '14k'
+            }
+        },
+        key: 4
     },
 ]
 
