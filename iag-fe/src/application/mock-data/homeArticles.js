@@ -34,7 +34,7 @@ const articles = [
             article: {
                 headline: 'Tommy Tuberville might be a Duck',
                 text: `Tommy Tuberville has been on a personal campaign to force the military to bend to his will. Until a bipartisan group finally coalesced to stop him, the old football coach refused to allow any promotions to go through committee because he does not like the abortion policy of the armed forces. A great deal has been said in the news about Tuberville’s low IQ and how holding up promotions harms not only morale, but actual military readiness. br/
-                I think we should see beyond his flagrant stupidity and take a close look at Tuberville’s loyalty to the country. Harming the military’s ability to face global threats sounds downright unamerican. I have a name for people who intentionally weaken our nation’s military to face worldwide threats. So, if Senator Tommy walks like a duck, and quacks like a duck, he is probably a traitor.`,
+                I think we should see beyond his flagrant stupidity and take a close look at Tuberville’s loyalty to the country. Harming the military’s ability to face global threats sounds downright unamerican. I have a name for people who intentionally weaken our nation’s military. So, if Senator Tommy walks like a duck, and quacks like a duck, he is probably a traitor.`,
             },
             interaction: {
                 likes: '14k'
