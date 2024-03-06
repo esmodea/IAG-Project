@@ -82,8 +82,7 @@ const articles = [
                 icon: '',
                 author: "The Apostate",
                 id: 'the-apostate',
-                links: ['https://www.space.com/24054-how-old-is-the-universe.html','https://education.nationalgeographic.org/resource/resource-library-age-earth/', 'https://www.letu.edu/academics/arts-and-sciences/files/age-of-earth.pdf', 'https://answersingenesis.org/age-of-the-earth/how-old-is-the-earth/'
-'https://ncse.ngo/yes-noahs-flood-may-have-happened-not-over-whole-earth', 'https://en.wikipedia.org/wiki/Genesis_flood_narrative', 'https://www.livescience.com/human-behavior/religion/did-noahs-flood-really-happen', 'https://www.smithsonianmag.com/science-nature/evidence-for-a-flood-102813115/', 'https://bibleinterp.arizona.edu/articles/flood357903'],
+                links: ['https://www.space.com/24054-how-old-is-the-universe.html','https://education.nationalgeographic.org/resource/resource-library-age-earth/', 'https://www.letu.edu/academics/arts-and-sciences/files/age-of-earth.pdf', 'https://answersingenesis.org/age-of-the-earth/how-old-is-the-earth/', 'https://ncse.ngo/yes-noahs-flood-may-have-happened-not-over-whole-earth', 'https://en.wikipedia.org/wiki/Genesis_flood_narrative', 'https://www.livescience.com/human-behavior/religion/did-noahs-flood-really-happen', 'https://www.smithsonianmag.com/science-nature/evidence-for-a-flood-102813115/', 'https://bibleinterp.arizona.edu/articles/flood357903'],
                 date: '2/28/24'
             },
             article: {
