@@ -7,31 +7,7 @@ import ArticleWeb from "../common/Article";
 import articles from "../../../mock-data/homeArticles";
 
 const WHomeContent = () => {
-
-    const sortDate = (a, b) => {
-        let aDate = a.content.info.date.split('/').map((num) => {return +num;});
-        let bDate = b.content.info.date.split('/').map((num) => {return +num;});
-        if(aDate[2] >= bDate[2]){
-            if(aDate[0] >= bDate[0]){
-                if(aDate[1] >= bDate[1]){
-                    if(aDate[1] > bDate[1]){
-                        return -1;
-                    } else {
-                        return 0;
-                    }
-                } else {
-                    return 1;
-                }
-            } else {
-                return 1;
-            }
-        } else {
-            return 1;
-        }
-    }
-
-    const posts = articles.sort(sortDate);
-
+    
     return(
         <div className="home-web">
             <Header />
@@ -44,7 +20,7 @@ const WHomeContent = () => {
                         <div className="layout-div"></div>
                         <div className="layout-div"></div>
                         <div className="page-center">
-                            {posts.map((post) => {
+                            {articles.sort((a, b) => b.key - a.key).map((post) => {
                                 const {article, info, interaction} = post.content;
                                 return <ArticleWeb article={article} info={info} interaction={interaction} id={+post.key} key={+post.key} />;
                             })}
