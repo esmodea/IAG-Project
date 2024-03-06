@@ -99,6 +99,42 @@ The Bible is full of crackpottery. You will find fireproof men, a lionproof hero
         },
         key: 4
     },
+    {
+        content: {
+            info: {
+                icon: '',
+                author: "Jason Satyr",
+                id: 'jason-satyr',
+                links: ['https://genius.com/English-folk-verse-the-fifth-of-november-guy-fawkes-night-poem-annotated'],
+                date: '3/4/24',
+            },
+            article: {
+                headline: 'Roevember',
+                text: `Remember, Remember,   br/
+                        To Vote in Roevember!   br/
+                        Face the Big Lie, treason, and plot;  br/
+    	                I know of no reason,   br/
+    	                The January 6 Treason,  br/
+    	                Should ever be forgot!  br/
+    	                Or that Thomas and friends,  br/
+    	                Gaveled the doom,  br/
+    	                Of women’s rights, travel to womb.  br/
+    	                Now twenty-seven states conspire,  br/
+    	                With denier’s gloom,  br/
+    	                Dimming Democracy’s fire.  br/
+    	                Remember, Remember,  br/
+    	                To Vote in Roevember.  br/
+    	                Face the Big Lie, treason, and plot;  br/
+    	                Our women and our freedom need you lot!  br/
+    	                If you love liberty’s breath,  br/
+    	                Cast your ballot against Democracy’s death!`,
+            },
+            interaction: {
+                likes: '14k'
+            }
+        },
+        key: 5
+    },
 ]
 
 export default articles;
