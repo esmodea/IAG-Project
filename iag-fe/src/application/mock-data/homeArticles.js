@@ -139,6 +139,30 @@ Cast your ballot against Democracy’s death!
             }
         },
         key: 5
+    }, {
+        content: {
+            info: {
+                icon: '',
+                author: "Jack the Giant",
+                id: 'jack-the-giant',
+                links: ['https://tcjewfolk.com/2012/02/07/complicated-legacy-fritz-haber/','https://www.theguardian.com/environment/2022/nov/03/big-agriculture-climate-crisis-cop27'
+            },
+            article: {
+                headline: 'Nature Gardening with Jack the Giant: #1 The Call',
+                text: `Consider a way of gardening that does not destroy the world.   Invite mother nature to be your partner and embrace cultivated wildness.  Take stewardship of fundamental natural processes to grow your food, ornamentals, and flowers. Be the caretaker of bountiful ecosystems, instead of creating sterile garden beds full of chemical fertilizer and insect poison.   
+In a world built by greed, humans have used growing strategies that directly conflict with nature, and nature is suffering the consequences.  Since growers adopted Nazi farming techniques after World War II, humans have systematically torched the natural world in order to produce huge yields, disrupting the processes that our biosphere depends upon to support large animals, like humans.
+Most scientists agree that we are at a tipping point in climate history, and things don’t look good.  Our only chance to survive in mass, as a species, is to change the way we do a lot of things.  The way we grow our plants is perhaps the most important change that we need to make.   Why not start in your yard? 
+If you are like me, you enjoy gardening because you love to make things grow.  Since you want to propagate life, why not get serious about it?  Instead of growing a few plants, you could steward a million million life forms.  The world needs shepherds of microbes and benefactors of bees.  If you own your land, you can be the ally that our biosphere needs to get past this very difficult time in history.  As a reward you will walk among a riot of life and color.
+Nature Gardening uses the processes of nature to grow your food and flowers.  It pulls from all nature-based growing strategies, marrying the human being’s ability to organize, plan, assist, and shepherd with Mother Nature’s power to produce life abundant.   It is a ground up approach, starting with the microbes beneath your feet, creating chains of life that interlock and churn out food, flowers, and foliage.  It is time to turn your back on the old English garden sterility and to embrace life at all its levels.  Choose to be a Nature Gardener, a steward of millions of lives, feeding the dying ecosystems of a fragile world.
+
+
+`,
+            },
+            interaction: {
+                likes: '14k'
+            }
+        },
+        key: 6
     }, 
 ]
 
