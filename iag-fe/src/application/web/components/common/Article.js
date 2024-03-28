@@ -41,7 +41,7 @@ const ArticleWeb = (props) => {
     };
 
     return (
-        <div key={id * 135} className={`article ${skewStyle}`}>
+        <div key={id * 135} className={`article`}>
             <div className="info-bar">
                 <div className="icon"></div>
                 <Link to={'/home'}><h2 className="author-name-article">{info.author}</h2></Link>
