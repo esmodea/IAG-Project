@@ -145,7 +145,7 @@ I know of no reason,
 The January 6 Treason,
 Should ever be forgot!
 Or that Thomas and friends,
-Gaveled the doom,
+Gaveled the doom,  
 Of women’s rights, travel to womb.
 Now twenty-seven states conspire,
 With denier’s gloom,
