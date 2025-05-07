@@ -103,10 +103,36 @@ The Bible is full of crackpottery. You will find fireproof men, a lionproof hero
         content: {
             info: {
                 icon: '',
+                author: "The Apostate ",
+                id: 'the-apostate ',
+                links: ['https://www.space.com/24054-how-old-is-the-universe.html','https://education.nationalgeographic.org/resource/resource-library-age-earth/', 'https://www.letu.edu/academics/arts-and-sciences/files/age-of-earth.pdf', 'https://answersingenesis.org/age-of-the-earth/how-old-is-the-earth/', 'https://ncse.ngo/yes-noahs-flood-may-have-happened-not-over-whole-earth', 'https://en.wikipedia.org/wiki/Genesis_flood_narrative', 'https://www.livescience.com/human-behavior/religion/did-noahs-flood-really-happen', 'https://www.smithsonianmag.com/science-nature/evidence-for-a-flood-102813115/', 'https://bibleinterp.arizona.edu/articles/flood357903'],
+                date: '2/28/24'
+            },
+            article: {
+                headline: 'Modern Religion #1: It’s Just so Dumb',
+                text: `
+               One of the main problems with dealing with religion in America is the Bible.  How and why are we supposed to take this crap seriously?  If you cannot prove it with science or empirical evidence, it isn’t real.  It just isn’t.  If not attached to a worldwide organization, it would be considered mental illness to believe biblical stories as fact.  
+Modern christianity is a whole system of Faith Illogical.  It is really disturbing that these religious crazies use this “faith” to apply to life decisions and political affiliation. We are literally surrounded by insanity, and we are told to accept it as the ultimate truth.  
+There are so many absolute gems in the Bible.  Perhaps the best place to start is with creation.  According to all reputable scientists, the Universe is somewhere near 13.8 billion years old, and the Earth is a little under 4.5 billion years old.  There is absolutely no chance that the Earth is 6 thousand years old, no matter what the Bible says. Anyone who believes so, is a few billion years off the mark.  The science on this is deep, wide, and clear.  
+Noah’s Ark is another fantastic example of absolute insanity.  Just about everything in the Noah story is impossible. Noah could not have been 950 years old.  There was never a worldwide flood.  No boat or ship ever built could hold two of every animal on Earth, not even if it was built in cubits.  No way a single family could take care of a pair of everything.  Where would the poop go?  How could they feed them?  For that matter how did any fish survive when the freshwater rains connected the seas, leaving nothing on the planet but brackish water?  None of it happened.  It is a crazy story.
+The Bible is full of crackpottery. You will find fireproof men, a lionproof hero, a long-haired Superman, a flying chariot, a flying man, a man swallowed by a fish and puked up alive 3 days later, a bet between God and the Devil, and a woman getting pregnant without sex.  So much of “The Book” is primitive mythology, and yet we are expected to put aside logic, science, and evidence, shut up, bow our heads, and swallow that bullshit sandwich.  
+
+
+                `,
+            },
+            interaction: {
+                likes: '14k'
+            }
+        },
+        key: 4
+    },{
+        content: {
+            info: {
+                icon: '',
                 author: "Jason Satyr",
                 id: 'jason-satyr',
                 links: ['https://genius.com/English-folk-verse-the-fifth-of-november-guy-fawkes-night-poem-annotated'],
-                date: '3/4/24',
+                date: '3/4/25',
             },
             article: {
                 headline: 'Roevember',
@@ -134,6 +160,32 @@ The Bible is full of crackpottery. You will find fireproof men, a lionproof hero
             }
         },
         key: 5
+    },{
+        content: {
+            info: {
+                icon: '',
+                author: "Jason Satyr",
+                id: 'jason-satyr',
+                links: [],
+                date: '5/7/25',
+            },
+            article: {
+                headline: 'When a Good Man Goes to War',
+                image: '/assets/Key6article.jpg',
+                text: `Who knows what finally pushed me out the door.  Like the rest of the nation, I watched in horror for weeks, feeling hopeless and stressed.  Breaking law after law, Trump abused power with an authoritarian swagger.  He worked aggressively to destroy checks and balances, attempting to take complete control of our country.   I had followed the recent protests, but I just haven’t been the kind of person who goes to the street with a sign.  I always had something better to do. br/
+                        Perhaps it was Trump defying the Supreme Court.  Maybe it was him purposefully destroying our economy, or his attack on the Free Press.   The concentration camps in El Salvador might have been it; how could the America I love have concentration camps? I don’t know for sure what woke me up, but I realized that no one was coming to save us.  I needed to be the hero of my own story.  I was going to my first political protest, and I made a sign.  br/
+                        I wondered if anyone was going to show up.  It was rainy and cold, and Americans are famous for not protesting in bad weather.  I decided that I would stand there alone, in the cold, holding my sign, no matter how embarrassing or dangerous it might be. I couldn’t say that I did nothing when Trump destroyed the world.  Holding a sign in public, expressing my opinion, no matter how small an act, is something, even if I no one else was there.  However, when our car came into view of the protest site we broke into wide grins. We were not going to be alone. br/
+    	                The gang was all there.  Men and women, young and old all lined the streets in protest in the least likely place of all, the very buckle of the Bible Belt.  The atmosphere was rowdy and festive.  Honks of support and smiling waves from car after car drew loud cheers from the protesters.  We did get the occasional rude shout from the random MAGA yahoo, always male, always white, usually in a massive pickup truck. br/
+    	                Ours was a colorful lot, full of joy.  So many characters made up our motley crowd.  We had a masked free-Palestine protester with a boom box and a bull horn, a guy in a rascal sporting three American flags, and the bright red specter of Ester from the Handmaid’s Tale, who marched resolutely up and down the street past protest signs of all levels of skill and preparation. br/
+    	                The signs told the story of a nation in trauma.  The sheer number of crimes Trump had committed against the people was staggering to see laid out visually. Written on these signs were the reasons that these good people had gone to war.  Like me, they needed to speak out, to hold a sign for everyone to see what kept them up at night and ruined their breakfasts. There were so many reasons to protest, all together that day, many voices blending into a single harmony. br/
+    	                The passing cars constantly pumped energy into the crowd.  Every wave, every honk, every thumbs up gave us a thrill, so many supporters, even here.  I saw the face of a teenage girl light up like a lamp at the sight of us, full of wonder and hope.  I hadn’t seen hope like that in a long time, and I realized that that was why I was here.  It was for her and all the other young people that I saw driving by.  I need to hold their hope, as well as the hope of all the people who are losing so much right now.  I must fight for them.  They all deserve a future full of opportunity, and I will go tooth and claw with the fascists to give it to them. br/
+    	                I am so happy to not be alone in this.  It was crazy.  The crowd didn’t ever thin out. It got larger all day.  The energy was flowing, and I could feel the different threads of protest weaving together around me.  The scene was electric, and I knew that this was happening all over the nation, all over the world.  Hope, perhaps, is not in vain.  We may be facing America’s darkest hours, but ladies and gentlemen, we have a movement. br/`,
+            },
+            interaction: {
+                likes: '14k'
+            }
+        },
+        key: 6
     },
 ]
 

@@ -33,7 +33,8 @@ const TopBar = () => {
         <>
         <ul className="top-bar">
             <li className={`top-bar-icon left-margin`}><Link to={'/m/home'}><img className="top-bar-icon" alt="main-logo-on-mobile" src="/logo192.png" /></Link></li>
-            {redButton === '/m/home' || redButton ===`/m/${currentWriter}` ? <li className='positionary big-red-button right-margin'><BigRedButton onClick={handleFilter} text={[]} icons={[TeamOutlined, FilterOutlined]} />
+            {redButton === '/m/home' || redButton ===`/m/${currentWriter}` ? <li className='positionary big-red-button right-margin'>
+                <BigRedButton onClick={handleFilter} text={[]} icons={[TeamOutlined, FilterOutlined]} />
                 {displayFilter ? <div className="filter-list">
                     {authors.map((author) => {
                         return (
@@ -48,9 +49,15 @@ const TopBar = () => {
                 <div className="layout-div" />
             </div> : ''}
             </li> : ''}
-            {redButton === '/m/user' ? <li className={`big-red-button right-margin`}><BigRedButton text={['Logout']} icons={[LogoutOutlined]} /></li> : ''}
-            {redButton === '/m/shop' ? <li className={`big-red-button auto-left-margin right-margin`}><BigRedButton text={[]} icons={[ShoppingCartOutlined]} /></li> : ''}
-            {redButton === '/m/shop' ? <li className={`big-red-button right-margin`}><BigRedButton text={[]} icons={[ShoppingOutlined, FilterOutlined]} /></li> : ''}
+            {redButton === '/m/user' ? <li className={`big-red-button right-margin`}>
+                <BigRedButton text={['Logout']} icons={[LogoutOutlined]} />
+                </li> : ''}
+            {redButton === '/m/shop' ? <li className={`big-red-button auto-left-margin right-margin`}>
+                <BigRedButton text={[]} icons={[ShoppingCartOutlined]} />
+                </li> : ''}
+            {redButton === '/m/shop' ? <li className={`big-red-button right-margin`}>
+                <BigRedButton text={[]} icons={[ShoppingOutlined, FilterOutlined]} />
+                </li> : ''}
         </ul>
         </>
     )
