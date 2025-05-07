@@ -1,6 +1,6 @@
 import React from "react";
-import BigRedButton from "../../../common/BigRedButton";
-import { LoginOutlined } from "@ant-design/icons";
+// import BigRedButton from "../../../common/BigRedButton";
+// import { LoginOutlined } from "@ant-design/icons";
 import './commonWeb.css'
 import { Link } from "react-router-dom";
 
