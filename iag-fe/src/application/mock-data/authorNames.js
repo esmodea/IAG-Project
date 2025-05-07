@@ -16,6 +16,18 @@ const authors = [
         name: "MGC Traveler",
         icon: "",
         about: "MGC Traveler is a gentler, more thoughtful voice. He seeks the deeper meaning of Life, the Universe, and Everything."
+    },
+    {
+        id: "jason-satyr",
+        name: "Jason Satyr",
+        icon: "",
+        about: "Welcome to your new source of edgy to obnoxious satire about the modern age."
+    },
+    {
+        id: "the-apostate",
+        name: "The Apostate",
+        icon: "",
+        about: "The Apostate hates religion and seeks to undermine it at every turn. This once devout fanatic now has the ultimate goal of ending of all religion. The Apostate pulls no punches and spares no one."
     }
 ]
 
