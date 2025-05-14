@@ -5,7 +5,7 @@ const articles = [
                 icon: '',
                 author: "Jane Whimsey",
                 id: 'jane-whimsey',
-                links: ['https://manhattanda.org/district-attorney-bragg-announces-34-count-felony-indictment-of-former-president-donald-j-trump/', 'https://www.manhattanda.org/wp-content/uploads/2023/04/Donald-J.-Trump-Indictment.pdf', 'https://www.documentcloud.org/documents/23741570-new-york-v-trump-indictment', 'https://en.wikipedia.org/wiki/Prosecution_of_Donald_Trump_in_New_York', 'https://abcnews.go.com/Politics/timeline-manhattan-district-attorney-case-donald-trump/story?id=98389444', 'https://www.cbsnews.com/news/donald-trump-investigations-new-york-fulton-county-georgia-special-counsel/', 'https://www.nytimes.com/interactive/2023/04/04/nyregion/trump-indictment-annotated.html', 'https://www.npr.org/2023/04/04/1167708172/trump-charges-hush-money-new-york-indictment', 'https://www.cbsnews.com/news/trump-indictments-details-guide-charges-trial-dates-people-case/', 'https://www.cnn.com/2023/03/30/politics/donald-trump-indictment/index.html', 'https://www.cnbc.com/2023/03/31/trump-indicted-ny-grand-jury.html'],
+                links: ['manhattanda.org/district-attorney-bragg-announces-34-count-felony-indictment-of-former-president-donald-j-trump/', 'www.manhattanda.org/wp-content/uploads/2023/04/Donald-J.-Trump-Indictment.pdf', 'www.documentcloud.org/documents/23741570-new-york-v-trump-indictment', 'en.wikipedia.org/wiki/Prosecution_of_Donald_Trump_in_New_York', 'abcnews.go.com/Politics/timeline-manhattan-district-attorney-case-donald-trump/story?id=98389444', 'www.cbsnews.com/news/donald-trump-investigations-new-york-fulton-county-georgia-special-counsel/', 'www.nytimes.com/interactive/2023/04/04/nyregion/trump-indictment-annotated.html', 'www.npr.org/2023/04/04/1167708172/trump-charges-hush-money-new-york-indictment', 'www.cbsnews.com/news/trump-indictments-details-guide-charges-trial-dates-people-case/', 'www.cnn.com/2023/03/30/politics/donald-trump-indictment/index.html', 'www.cnbc.com/2023/03/31/trump-indicted-ny-grand-jury.html'],
                 date: '11/05/23'
             },
             article: {
@@ -82,7 +82,7 @@ const articles = [
                 icon: '',
                 author: "The Apostate",
                 id: 'the-apostate',
-                links: ['https://www.space.com/24054-how-old-is-the-universe.html','https://education.nationalgeographic.org/resource/resource-library-age-earth/', 'https://www.letu.edu/academics/arts-and-sciences/files/age-of-earth.pdf', 'https://answersingenesis.org/age-of-the-earth/how-old-is-the-earth/', 'https://ncse.ngo/yes-noahs-flood-may-have-happened-not-over-whole-earth', 'https://en.wikipedia.org/wiki/Genesis_flood_narrative', 'https://www.livescience.com/human-behavior/religion/did-noahs-flood-really-happen', 'https://www.smithsonianmag.com/science-nature/evidence-for-a-flood-102813115/', 'https://bibleinterp.arizona.edu/articles/flood357903'],
+                links: ['www.space.com/24054-how-old-is-the-universe.html','education.nationalgeographic.org/resource/resource-library-age-earth/', 'www.letu.edu/academics/arts-and-sciences/files/age-of-earth.pdf', 'answersingenesis.org/age-of-the-earth/how-old-is-the-earth/', 'ncse.ngo/yes-noahs-flood-may-have-happened-not-over-whole-earth', 'en.wikipedia.org/wiki/Genesis_flood_narrative', 'www.livescience.com/human-behavior/religion/did-noahs-flood-really-happen', 'www.smithsonianmag.com/science-nature/evidence-for-a-flood-102813115/', 'bibleinterp.arizona.edu/articles/flood357903'],
                 date: '2/28/24'
             },
             article: {
@@ -105,7 +105,7 @@ The Bible is full of crackpottery. You will find fireproof men, a lionproof hero
                 icon: '',
                 author: "The Apostate ",
                 id: 'the-apostate ',
-                links: ['https://www.space.com/24054-how-old-is-the-universe.html','https://education.nationalgeographic.org/resource/resource-library-age-earth/', 'https://www.letu.edu/academics/arts-and-sciences/files/age-of-earth.pdf', 'https://answersingenesis.org/age-of-the-earth/how-old-is-the-earth/', 'https://ncse.ngo/yes-noahs-flood-may-have-happened-not-over-whole-earth', 'https://en.wikipedia.org/wiki/Genesis_flood_narrative', 'https://www.livescience.com/human-behavior/religion/did-noahs-flood-really-happen', 'https://www.smithsonianmag.com/science-nature/evidence-for-a-flood-102813115/', 'https://bibleinterp.arizona.edu/articles/flood357903'],
+                links: ['www.space.com/24054-how-old-is-the-universe.html','education.nationalgeographic.org/resource/resource-library-age-earth/', 'www.letu.edu/academics/arts-and-sciences/files/age-of-earth.pdf', 'answersingenesis.org/age-of-the-earth/how-old-is-the-earth/', 'ncse.ngo/yes-noahs-flood-may-have-happened-not-over-whole-earth', 'en.wikipedia.org/wiki/Genesis_flood_narrative', 'www.livescience.com/human-behavior/religion/did-noahs-flood-really-happen', 'www.smithsonianmag.com/science-nature/evidence-for-a-flood-102813115/', 'bibleinterp.arizona.edu/articles/flood357903'],
                 date: '2/28/24'
             },
             article: {
@@ -131,7 +131,7 @@ The Bible is full of crackpottery. You will find fireproof men, a lionproof hero
                 icon: '',
                 author: "Jason Satyr",
                 id: 'jason-satyr',
-                links: ['https://genius.com/English-folk-verse-the-fifth-of-november-guy-fawkes-night-poem-annotated'],
+                links: ['genius.com/English-folk-verse-the-fifth-of-november-guy-fawkes-night-poem-annotated'],
                 date: '3/4/25',
             },
             article: {
@@ -186,6 +186,25 @@ The Bible is full of crackpottery. You will find fireproof men, a lionproof hero
             }
         },
         key: 6
+    },{
+        content: {
+            info: {
+                icon: '',
+                author: "The Apostate",
+                id: 'the-apostate',
+                links: ['www.christianitytoday.com/news/2023/january/umc-churches-leave-global-methodist-denomination-schism.html', 'www.nbcnews.com/news/us-news/southern-baptists-vote-expel-two-churches-led-women-pastors-rcna89282', 'www.nytimes.com/2015/03/18/us/presbyterians-give-final-approval-for-same-sex-marriage.html', 'Presbyterian Church in America leaders say those who identify as gay are not qualified for ordination (religionnews.com)', 'www.reuters.com/article/us-usa-presbyterian-gay/presbyterian-group-breaks-away-over-gay-clergy-idUKTRE80I2CD20120119', 'www.wjhl.com/news/local/united-methodist-official-split-over-lgbtq-marriages-clergy-set-for-late-april-regionally/', 'www.desmoinesregister.com/story/news/2023/05/24/83-iowa-churches-disaffiliate-split-united-methodist-church-lgbtq-rights-global-methodist-church/70236426007/', 'www.christianitytoday.com/news/2023/january/umc-churches-leave-global-methodist-denomination-schism.html',],
+                date: '5/14/25',
+            },
+            article: {
+                headline: 'Modern Religion #2: Religion and Bigotry',
+                image: '/assets/Key7article.jpg',
+                text: 'The more fundamentalist that a person is the more likely that they are bigoted.  As far back as you look, the most conservative denominations have chosen hate.  In 1845 the Southern Baptist church split away from Baptist church, because the Southern Baptist Church wanted slavery.  So, remember that any time to talk with a Southern Baptist; they started their entire denomination because they wanted God to let them enslave other people. br/ br/ American Religion has always been all about keeping LGBT community members down.  The Methodist church recently split over LGBT inclusion.  About half of the churches have left, forming the new, more bigoted Global Methodist Church, where it is acceptable to exclude gays and lesbians from church leadership.  It seems that these conservatives are willing to form a new denomination to avoid supporting gay rights.  A decade earlier, the Presbyterians also split over gay clergy.  There is always a conservative portion of any congregation who truly holds on to hate. br/ br/ The worst, most insidious, most damaging bigotry from conservative religion is the discrimination against women.  Females cannot lead and must submit to male authority.  Recently, the Southern Baptist Convention ejected three churches because they had female pastors.  Yes, once again the Southern Baptists are leading the way confidently in the wrong direction. br/ br/ Remember, when anyone tries to sell you religion, they are selling hate. God gave them the right to be chauvinistic pigs, as well as gay bashers, and racists.  The fundamentalist truly believes in horrible things.  They think men are superior to women and should control them, gays and lesbians are evil, and other races are inferior.  Worse, they want to make you believe those awful things too.',
+            },
+            interaction: {
+                likes: '14k'
+            },
+        },
+        key: 7
     },
 ]
 
