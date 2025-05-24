@@ -208,5 +208,4 @@ The Bible is full of crackpottery. You will find fireproof men, a lionproof hero
     },
 ]
 
-
 export default articles;
