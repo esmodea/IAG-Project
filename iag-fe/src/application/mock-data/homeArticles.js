@@ -82,7 +82,7 @@ const articles = [
                 icon: '',
                 author: "The Apostate",
                 id: 'the-apostate',
-                links: ['www.space.com/24054-how-old-is-the-universe.html','education.nationalgeographic.org/resource/resource-library-age-earth/', 'www.letu.edu/academics/arts-and-sciences/files/age-of-earth.pdf', 'answersingenesis.org/age-of-the-earth/how-old-is-the-earth/', 'ncse.ngo/yes-noahs-flood-may-have-happened-not-over-whole-earth', 'en.wikipedia.org/wiki/Genesis_flood_narrative', 'www.livescience.com/human-behavior/religion/did-noahs-flood-really-happen', 'www.smithsonianmag.com/science-nature/evidence-for-a-flood-102813115/', 'bibleinterp.arizona.edu/articles/flood357903'],
+                links: ['www.space.com/24054-how-old-is-the-universe.html', 'education.nationalgeographic.org/resource/resource-library-age-earth/', 'www.letu.edu/academics/arts-and-sciences/files/age-of-earth.pdf', 'answersingenesis.org/age-of-the-earth/how-old-is-the-earth/', 'ncse.ngo/yes-noahs-flood-may-have-happened-not-over-whole-earth', 'en.wikipedia.org/wiki/Genesis_flood_narrative', 'www.livescience.com/human-behavior/religion/did-noahs-flood-really-happen', 'www.smithsonianmag.com/science-nature/evidence-for-a-flood-102813115/', 'bibleinterp.arizona.edu/articles/flood357903'],
                 date: '2/28/24'
             },
             article: {
@@ -105,7 +105,7 @@ The Bible is full of crackpottery. You will find fireproof men, a lionproof hero
                 icon: '',
                 author: "The Apostate ",
                 id: 'the-apostate ',
-                links: ['www.space.com/24054-how-old-is-the-universe.html','education.nationalgeographic.org/resource/resource-library-age-earth/', 'www.letu.edu/academics/arts-and-sciences/files/age-of-earth.pdf', 'answersingenesis.org/age-of-the-earth/how-old-is-the-earth/', 'ncse.ngo/yes-noahs-flood-may-have-happened-not-over-whole-earth', 'en.wikipedia.org/wiki/Genesis_flood_narrative', 'www.livescience.com/human-behavior/religion/did-noahs-flood-really-happen', 'www.smithsonianmag.com/science-nature/evidence-for-a-flood-102813115/', 'bibleinterp.arizona.edu/articles/flood357903'],
+                links: ['www.space.com/24054-how-old-is-the-universe.html', 'education.nationalgeographic.org/resource/resource-library-age-earth/', 'www.letu.edu/academics/arts-and-sciences/files/age-of-earth.pdf', 'answersingenesis.org/age-of-the-earth/how-old-is-the-earth/', 'ncse.ngo/yes-noahs-flood-may-have-happened-not-over-whole-earth', 'en.wikipedia.org/wiki/Genesis_flood_narrative', 'www.livescience.com/human-behavior/religion/did-noahs-flood-really-happen', 'www.smithsonianmag.com/science-nature/evidence-for-a-flood-102813115/', 'bibleinterp.arizona.edu/articles/flood357903'],
                 date: '2/28/24'
             },
             article: {
@@ -125,7 +125,7 @@ The Bible is full of crackpottery. You will find fireproof men, a lionproof hero
             }
         },
         key: 4
-    },{
+    }, {
         content: {
             info: {
                 icon: '',
@@ -160,7 +160,7 @@ The Bible is full of crackpottery. You will find fireproof men, a lionproof hero
             }
         },
         key: 5
-    },{
+    }, {
         content: {
             info: {
                 icon: '',
@@ -186,7 +186,7 @@ The Bible is full of crackpottery. You will find fireproof men, a lionproof hero
             }
         },
         key: 6
-    },{
+    }, {
         content: {
             info: {
                 icon: '',
@@ -205,6 +205,25 @@ The Bible is full of crackpottery. You will find fireproof men, a lionproof hero
             },
         },
         key: 7
+    }, {
+        content: {
+            info: {
+                icon: '',
+                author: "Jason Satyr",
+                id: 'jason-satyr',
+                links: [],
+                date: '6/13/25',
+            },
+            article: {
+                headline: 'When History Meets the Moment',
+                image: '/assets/Key8article.jpg',
+                text: `This is it! If you want to resist Trump, this is the biggest moment so far!  The Gross POTUS deployed marines against peaceful protesters in L.A. and now a predator drone against Americans!  Speak now or forever hold your peace.  The iron is hot, and the moment is right.  The world may never be the same.   Saturday the 14th is the day to take a stand. American Democracy faces its darkest hour, and the nation is taking to the streets. br/ Donald John Trump is threatening to use the military against protesters.  I am not afraid.  Are you?  Now is the time to stand in the streets against the fascists so our grandchildren have a future of freedom and plenty. Dystopia is banging on our door, and it is time to defend the House of Democracy.  I can think of worse ways to die.  That nasty old scumbag wants us to be afraid to exercise our constitutional rights.  I will stand against him.  Will you? br/ Wherever you are, join the national protest on the 14th.  Be one of the millions showing the world that Americans are not cowards, apologists, or fascists.    Saturday is your moment to stand for something that matters against something that must not win.  It is time to be the hero of your own story.  Don’t let this Saturday pass you by. br/ Thousands of protests in 100s of towns and cities will crisscross the nation on June 14th, millions making their voices heard.  If you hate what is going on but haven’t known what to do.  Show up.  Just show up on Saturday June 14th and take part in this moment, this movement, this chance to turn history away from darkness back toward democracy. br/ Trump won Oklahoma by a billion percent, and yet protests are springing up everywhere.  Tulsa alone will have three different protests: 12 to 3 at the Tulsa County Courthouse, 500 S Denver Ave, 12:00 to 3:00 at 41st and Yale, and 3:00 to 5:00 at 71st and Memorial.  A time and place for everyone. br/ The rest of the state is keeping pace with Green Country.  There are protests popping up everywhere, in places I would have never dreamed.  McAlester, Durant, Catoosa, Ardmore, Tahlequah all have protests planned, and Oklahoma City is kicking off the festivities at 9:00 AM at City Hall.  I am proud of Oklahomans for the first time in a long time, and I will stand with them on Saturday. Will you join us?`,
+            },
+            interaction: {
+                likes: '14k'
+            },
+        },
+        key: 8
     },
 ]
 
