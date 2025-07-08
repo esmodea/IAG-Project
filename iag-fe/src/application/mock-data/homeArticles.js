@@ -82,7 +82,7 @@ const articles = [
                 icon: '',
                 author: "The Apostate",
                 id: 'the-apostate',
-                links: ['www.space.com/24054-how-old-is-the-universe.html','education.nationalgeographic.org/resource/resource-library-age-earth/', 'www.letu.edu/academics/arts-and-sciences/files/age-of-earth.pdf', 'answersingenesis.org/age-of-the-earth/how-old-is-the-earth/', 'ncse.ngo/yes-noahs-flood-may-have-happened-not-over-whole-earth', 'en.wikipedia.org/wiki/Genesis_flood_narrative', 'www.livescience.com/human-behavior/religion/did-noahs-flood-really-happen', 'www.smithsonianmag.com/science-nature/evidence-for-a-flood-102813115/', 'bibleinterp.arizona.edu/articles/flood357903'],
+                links: ['www.space.com/24054-how-old-is-the-universe.html', 'education.nationalgeographic.org/resource/resource-library-age-earth/', 'www.letu.edu/academics/arts-and-sciences/files/age-of-earth.pdf', 'answersingenesis.org/age-of-the-earth/how-old-is-the-earth/', 'ncse.ngo/yes-noahs-flood-may-have-happened-not-over-whole-earth', 'en.wikipedia.org/wiki/Genesis_flood_narrative', 'www.livescience.com/human-behavior/religion/did-noahs-flood-really-happen', 'www.smithsonianmag.com/science-nature/evidence-for-a-flood-102813115/', 'bibleinterp.arizona.edu/articles/flood357903'],
                 date: '2/28/24'
             },
             article: {
@@ -105,7 +105,7 @@ The Bible is full of crackpottery. You will find fireproof men, a lionproof hero
                 icon: '',
                 author: "The Apostate ",
                 id: 'the-apostate ',
-                links: ['www.space.com/24054-how-old-is-the-universe.html','education.nationalgeographic.org/resource/resource-library-age-earth/', 'www.letu.edu/academics/arts-and-sciences/files/age-of-earth.pdf', 'answersingenesis.org/age-of-the-earth/how-old-is-the-earth/', 'ncse.ngo/yes-noahs-flood-may-have-happened-not-over-whole-earth', 'en.wikipedia.org/wiki/Genesis_flood_narrative', 'www.livescience.com/human-behavior/religion/did-noahs-flood-really-happen', 'www.smithsonianmag.com/science-nature/evidence-for-a-flood-102813115/', 'bibleinterp.arizona.edu/articles/flood357903'],
+                links: ['www.space.com/24054-how-old-is-the-universe.html', 'education.nationalgeographic.org/resource/resource-library-age-earth/', 'www.letu.edu/academics/arts-and-sciences/files/age-of-earth.pdf', 'answersingenesis.org/age-of-the-earth/how-old-is-the-earth/', 'ncse.ngo/yes-noahs-flood-may-have-happened-not-over-whole-earth', 'en.wikipedia.org/wiki/Genesis_flood_narrative', 'www.livescience.com/human-behavior/religion/did-noahs-flood-really-happen', 'www.smithsonianmag.com/science-nature/evidence-for-a-flood-102813115/', 'bibleinterp.arizona.edu/articles/flood357903'],
                 date: '2/28/24'
             },
             article: {
@@ -125,7 +125,7 @@ The Bible is full of crackpottery. You will find fireproof men, a lionproof hero
             }
         },
         key: 4
-    },{
+    }, {
         content: {
             info: {
                 icon: '',
@@ -160,7 +160,7 @@ The Bible is full of crackpottery. You will find fireproof men, a lionproof hero
             }
         },
         key: 5
-    },{
+    }, {
         content: {
             info: {
                 icon: '',
@@ -186,7 +186,7 @@ The Bible is full of crackpottery. You will find fireproof men, a lionproof hero
             }
         },
         key: 6
-    },{
+    }, {
         content: {
             info: {
                 icon: '',
@@ -205,26 +205,7 @@ The Bible is full of crackpottery. You will find fireproof men, a lionproof hero
             },
         },
         key: 7
-    },{
-        content: {
-            info: {
-                icon: '',
-                author: "Marvin Rider",
-                id: 'marvin-rider',
-                links: [],
-                date: '7/8/25',
-            },
-            article: {
-                headline: 'LUCA and the Tree',
-                image: '/assets/Key8article.jpg',
-                text: `It’s name was LUCA and it was not male, or female. It was less than that, or so much more. It was before masculine and feminine crashed the scene, with sex and all the drama. We don’t know if it was the absolute beginning, but it was the beginning of all of this. br/ br/ All life on Earth evolved from LUCA, whether you like it or not. The moss, the trees, the birds, and the bees, they all came from LUCA. The Last Universal Common Ancestor launched all of the evolutionary lines that created everything that lives, and since life and geology are intertwined, LUCA’s offspring shaped the very evolution of the Earth as well. br/ br/ We are all LUCAs descendants. This singular species of simple life began changing slowly, eventually diverging into new species, who in turn kept changing, creating chains of evolution that never stopped. This has taken us to now, where the world around us is one great big family gathering. We are brothers to the slime and sisters to the trees. Even the dirt at our feet and the rocks that make up the mountains are part of our big family tree. br/ br/ Nobody knows for sure where LUCA came from. It could have been the first life form on planet Earth, or it could have been the sole survivor of a world teeming with life. Either way, what a ride! LUCA survived, and LUCA evolved, faced new challenges, and evolved again. Uncounted iterations of LUCA played out in individual lives over billions of years. br/ br/To this day these species contend, cooperate, and feed upon each other. It is a complicated but perfect loop. Individuals experience the melodrama of life, consume other life forms, then die to be themselves consumed. It is a cycle of passion, doom, and renewal. It is the life paradox, all individuals die, but LUCA lives on.  br/ br/Have you ever had the nature epiphany, that mystical moment when you felt a connection to all living things? Perhaps you weren’t too high. As the ancestors of LUCA, we make up the roots, trunk, branches, and leaves of the tree of life. Nothing that flies, crawls, grows, runs, jumps, or swims can escape that fact. It is all LUCA. This single source has formed a complex network of itself around the entire planet, and it includes us. We are, in fact, one with nature after all.',                },
-            },
-                interaction: {
-                likes: '14k'
-            },
-        },
-        key: 8
-    },{
+    },
 ]
 
 export default articles;

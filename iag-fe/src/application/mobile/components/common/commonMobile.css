@@ -1,4 +1,4 @@
-.bottom-bar{
+.bottom-bar {
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -15,7 +15,11 @@
     z-index: 2;
 }
 
-.bottom-bar-button{
+a {
+    text-decoration: none;
+}
+
+.bottom-bar-button {
     color: var(--color-primary-1);
     background-color: var(--main-background-0);
     width: 4.5rem;
@@ -30,32 +34,32 @@
     padding-left: 0px;
 }
 
-.bottom-bar-button.highlighted{
+.bottom-bar-button.highlighted {
     color: var(--color-secondary-1-1);
     background-color: var(--color-primary-0);
     animation: Fade-In-Red .5s linear 0s 1 normal;
 }
 
-.bottom-bar-icon{
+.bottom-bar-icon {
     font-size: 1rem;
     margin: auto;
     width: min-content;
     height: min-content;
 }
 
-.nav-link{
+.nav-link {
     color: unset;
     margin: auto;
     padding: 0px;
     -webkit-tap-highlight-color: transparent;
 }
 
-.nav-link:active{
+.nav-link:active {
     background-color: unset;
     -webkit-tap-highlight-color: transparent;
 }
 
-.top-bar{
+.top-bar {
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -72,43 +76,46 @@
     z-index: 2;
 }
 
-.top-bar-icon{
+.top-bar-icon {
     height: 5.5rem;
 }
 
-.left-margin{
+.left-margin {
     margin-left: 1rem;
 }
 
-.right-margin{
+.right-margin {
     margin-right: 1rem;
 }
 
-.auto-left-margin{
+.auto-left-margin {
     margin-left: auto;
 }
 
-.positionary{
+.positionary {
     position: relative;
 }
 
-.filter-list{
+.filter-list {
     position: fixed;
     top: 5.5rem;
     right: 0;
     background-color: var(--main-background-0);
     width: 100vw;
-    max-height: 85vh;
+    height: calc(100vh - 5.5rem);
     text-align: center;
-    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
     overflow: auto;
 }
 
-.layout-div{
+.layout-div {
     min-height: 6rem;
 }
 
-.author-link{
+.author-link {
     text-decoration: none;
     background-color: var(--color-secondary-1-2);
     border-radius: .5rem;
@@ -121,21 +128,34 @@
     overflow-wrap: break-word;
 }
 
-.author-link.override{
+.author-link.override {
     text-decoration: none;
+    text-decoration-thickness: 0;
+    text-decoration-color: var(--color-secondary-1-2);
     background-color: var(--color-secondary-1-2);
-    border-radius: .5rem;
+    border-radius: 1rem;
     border: none;
-    margin-top: 3rem;
-    padding: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
     color: var(--color-secondary-2-2);
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     width: 80vw;
     white-space: nowrap;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
-.icon.override{
+.author-link.override>.no-decor {
+    text-decoration: none;
+}
+
+.icon.override {
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 10rem;
@@ -143,7 +163,7 @@
     margin-right: .5rem;
 }
 
-.icon{
+.icon {
     width: 1rem;
     height: 1rem;
     border-radius: 10rem;
@@ -152,7 +172,7 @@
 }
 
 
-.info-row{
+.info-row {
     display: flex;
     height: 2.5rem;
     justify-content: space-between;
@@ -162,7 +182,7 @@
 
 }
 
-.fake-image{
+.fake-image {
     width: 3rem;
     height: 3rem;
     border-radius: 1.5rem;
@@ -171,7 +191,7 @@
     background-size: contain;
 }
 
-.info-row > .author-name{
+.info-row>.author-name {
     font-size: 1.5rem;
     margin-left: 1rem;
     margin-right: auto;
@@ -179,13 +199,13 @@
     position: static;
 }
 
-.citation-links{
+.citation-links {
     position: relative;
     color: var(--color-secondary-2-2);
     z-index: 0;
 }
 
-.citation-menu{
+.citation-menu {
     position: absolute;
     top: auto;
     right: 0;
@@ -200,50 +220,50 @@
     z-index: 1;
 }
 
-.hide{
+.hide {
     display: none;
 }
 
-.hidden{
+.hidden {
     opacity: 0;
 }
 
-.away{
+.away {
     top: -50rem;
 }
 
-.visible{
+.visible {
     opacity: 100;
     top: 40vh;
 }
 
-.citation-link{
+.citation-link {
     margin-top: .1rem;
     margin-bottom: .1rem;
     padding: .5rem 1rem;
     background-color: var(--main-background-0);
 }
 
-.citation-link > a{
+.citation-link>a {
     color: inherit;
     text-decoration: none;
 }
 
-.citation-button{
+.citation-button {
     font-size: 2rem;
 }
 
-.citation-button:active{
+.citation-button:active {
     text-decoration: none;
     animation: none;
 }
 
-.interaction-group{
+.interaction-group {
     display: flex;
     justify-self: flex-start;
 }
 
-.interaction-button{
+.interaction-button {
     border: none;
     background-color: inherit;
     font-size: inherit;
@@ -255,12 +275,12 @@
 
 }
 
-.interaction-amount{
+.interaction-amount {
     color: inherit;
     font-size: inherit;
 }
 
-.interaction-row{
+.interaction-row {
     font-size: 1.5rem;
     color: var(--color-primary-1);
     width: 100%;
@@ -269,15 +289,15 @@
     align-items: center;
 }
 
-.interaction-group.last-button{
+.interaction-group.last-button {
     justify-self: flex-end;
 }
 
-.spacing-div{
+.spacing-div {
     height: 5.5rem;
 }
 
-.article-group{
+.article-group {
     max-width: 100%;
     display: flex;
     flex-direction: column;
@@ -286,15 +306,16 @@
     box-shadow: 0rem .25rem 1rem rgba(2, 45, 59, .8);
 }
 
-.article{
+.article {
     font-family: var(--main-text-family);
 }
 
-.headline, .article{
+.headline,
+.article {
     width: 87%;
 }
 
-.headline{
+.headline {
     color: var(--color-primary-1);
     margin-bottom: -.5rem;
     margin-left: -5px;
@@ -303,12 +324,12 @@
     font-size: 1.5rem;
 }
 
-.article-group > .article{
+.article-group>.article {
     color: var(--color-secondary-1-1);
     width: 87%;
 }
 
-.article-group > .image{
+.article-group>.image {
     width: 87%;
     border-radius: .75rem;
     margin-top: 1rem;
@@ -327,17 +348,18 @@
         color: var(--color-primary-1);
         background-color: var(--main-background-0);
     }
+
     50% {
         color: var(--color-secondary-1-1);
         background-color: var(--color-primary-0);
     }
 }
 
-:root{
+:root {
     background-color: var(--main-background-0);
 }
 
-.copy-dialogue{
+.copy-dialogue {
     transition: .5s;
     position: fixed;
     left: auto;
