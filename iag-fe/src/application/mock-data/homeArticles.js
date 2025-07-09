@@ -198,7 +198,7 @@ The Bible is full of crackpottery. You will find fireproof men, a lionproof hero
             article: {
                 headline: 'Modern Religion #2: Religion and Bigotry',
                 image: '/assets/Key7article.jpg',
-                text: `The more fundamentalist that a person is the more likely that they are bigoted.  As far back as you look, the most conservative denominations have chosen hate.  In 1845 the Southern Baptist church split away from Baptist church, because the Southern Baptist Church wanted slavery.  So, remember that any time you talk with a Southern Baptist; they started their entire denomination because they wanted God to let them enslave other people. br/ br/ American Religion has always been all about keeping LGBT community members down.  The Methodist church recently split over LGBT inclusion.  About half of the churches have left, forming the new, more bigoted Global Methodist Church, where it is acceptable to exclude gays and lesbians from church leadership.  It seems that these conservatives are willing to form a new denomination to avoid supporting gay rights.  A decade earlier, the Presbyterians also split over gay clergy.  There is always a conservative portion of any congregation who truly holds on to hate. br/ br/ The worst, most insidious, most damaging bigotry from conservative religion is the discrimination against women.  Females cannot lead and must submit to male authority.  Recently, the Southern Baptist Convention ejected three churches because they had female pastors.  Yes, once again the Southern Baptists are leading the way confidently in the wrong direction. br/ br/ Remember, when anyone tries to sell you religion, they are selling hate. God gave them the right to be chauvinistic pigs, as well as gay bashers, and racists. The fundamentalist truly believes in horrible things.  They think men are superior to women and should control them, gays and lesbians are evil, and other races are inferior.  Worse, they want to make you believe those awful things too.`,
+                text: `The more fundamentalist that a person is the more likely that they are bigoted.  As far back as you look, the most conservative denominations have chosen hate.  In 1845 the Southern Baptist church split away from Baptist church, because the Southern Baptist Church wanted slavery.  So, remember that any time you talk with a Southern Baptist; they started their entire denomination because they wanted God to let them enslave other people. br/ American Religion has always been all about keeping LGBT community members down.  The Methodist church recently split over LGBT inclusion.  About half of the churches have left, forming the new, more bigoted Global Methodist Church, where it is acceptable to exclude gays and lesbians from church leadership.  It seems that these conservatives are willing to form a new denomination to avoid supporting gay rights.  A decade earlier, the Presbyterians also split over gay clergy.  There is always a conservative portion of any congregation who truly holds on to hate. br/ The worst, most insidious, most damaging bigotry from conservative religion is the discrimination against women.  Females cannot lead and must submit to male authority.  Recently, the Southern Baptist Convention ejected three churches because they had female pastors.  Yes, once again the Southern Baptists are leading the way confidently in the wrong direction. br/ Remember, when anyone tries to sell you religion, they are selling hate. God gave them the right to be chauvinistic pigs, as well as gay bashers, and racists. The fundamentalist truly believes in horrible things.  They think men are superior to women and should control them, gays and lesbians are evil, and other races are inferior.  Worse, they want to make you believe those awful things too.`,
             },
             interaction: {
                 likes: '14k'
@@ -224,6 +224,25 @@ The Bible is full of crackpottery. You will find fireproof men, a lionproof hero
             },
         },
         key: 8
+    }, {
+        content: {
+            info: {
+                icon: '',
+                author: "Marvin Rider",
+                id: 'marvin-rider',
+                links: [],
+                date: '7/8/25',
+            },
+            article: {
+                headline: 'LUCA and the TREE',
+                image: '/assets/Key9article.jpg',
+                text: `It’s name was LUCA and it was not male, or female. It was less than that, or so much more. It was before masculine and feminine crashed the scene, with sex and all the drama. We don’t know if it was the absolute beginning, but it was the beginning of all of this. br/ All life on Earth evolved from LUCA, whether you like it or not.  The moss, the trees, the birds, and the bees, they all came from LUCA.  The Last Universal Common Ancestor launched all of the evolutionary lines that created everything that lives, and since life and geology are intertwined, LUCA’s offspring shaped the very evolution of the Earth as well. br/ We are all LUCAs descendants. This singular species of simple life began changing slowly, eventually diverging into new species, who in turn kept changing, creating chains of evolution that never stopped. This has taken us to now, where the world around us is one great big family gathering.  We are brothers to the slime and sisters to the trees.  Even the dirt at our feet and the rocks that make up the mountains are part of our big family tree. br/ Nobody knows for sure where LUCA came from.  It could have been the first life form on planet Earth, or it could have been the sole survivor of a world teeming with life.  Either way, what a ride! LUCA survived, and LUCA evolved, faced new challenges, and evolved again.  Uncounted iterations of LUCA played out in individual lives over billions of years.  br/ To this day these species contend, cooperate, and feed upon each other.  It is a complicated but perfect loop.  Individuals experience the melodrama of life, consume other life forms, then die to be themselves consumed.  It is a cycle of passion, doom, and renewal.  It is the life paradox, all individuals die, but LUCA lives on. br/ Have you ever had the nature epiphany, that mystical moment when you felt a connection to all living things? Perhaps you weren’t too high. As the ancestors of LUCA, we make up the roots, trunk, branches, and leaves of the tree of life. Nothing that flies, crawls, grows, runs, jumps, or swims can escape that fact.  It is all LUCA. This single source has formed a complex network of itself around the entire planet, and it includes us. We are, in fact, one with nature after all.`, 
+            },
+            interaction: {
+                likes: '14k'
+            },
+        },
+        key: 9
     },
 ]
 
