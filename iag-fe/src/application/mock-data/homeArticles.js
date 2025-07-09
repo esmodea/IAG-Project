@@ -230,7 +230,7 @@ The Bible is full of crackpottery. You will find fireproof men, a lionproof hero
                 icon: '',
                 author: "Marvin Rider",
                 id: 'marvin-rider',
-                links: [,],
+                links: [],
                 date: '7/8/25',
             },
             article: {
