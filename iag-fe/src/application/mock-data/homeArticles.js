@@ -1,4 +1,3 @@
-
 const articles = [
     {
         content: {
@@ -210,6 +209,25 @@ The Bible is full of crackpottery. You will find fireproof men, a lionproof hero
         content: {
             info: {
                 icon: '',
+                author: "Jason Satyr",
+                id: 'jason-satyr',
+                links: [],
+                date: '6/13/25',
+            },
+            article: {
+                headline: 'When History Meets the Moment',
+                image: '/assets/Key8article.jpg',
+                text: `This is it! If you want to resist Trump, this is the biggest moment so far!  The Gross POTUS deployed marines against peaceful protesters in L.A. and now a predator drone against Americans!  Speak now or forever hold your peace.  The iron is hot, and the moment is right.  The world may never be the same.   Saturday the 14th is the day to take a stand. American Democracy faces its darkest hour, and the nation is taking to the streets. br/ Donald John Trump is threatening to use the military against protesters.  I am not afraid.  Are you?  Now is the time to stand in the streets against the fascists so our grandchildren have a future of freedom and plenty. Dystopia is banging on our door, and it is time to defend the House of Democracy.  I can think of worse ways to die.  That nasty old scumbag wants us to be afraid to exercise our constitutional rights.  I will stand against him.  Will you? br/ Wherever you are, join the national protest on the 14th.  Be one of the millions showing the world that Americans are not cowards, apologists, or fascists.    Saturday is your moment to stand for something that matters against something that must not win.  It is time to be the hero of your own story.  Don’t let this Saturday pass you by. br/ Thousands of protests in 100s of towns and cities will crisscross the nation on June 14th, millions making their voices heard.  If you hate what is going on but haven’t known what to do.  Show up.  Just show up on Saturday June 14th and take part in this moment, this movement, this chance to turn history away from darkness back toward democracy. br/ Trump won Oklahoma by a billion percent, and yet protests are springing up everywhere.  Tulsa alone will have three different protests: 12 to 3 at the Tulsa County Courthouse, 500 S Denver Ave, 12:00 to 3:00 at 41st and Yale, and 3:00 to 5:00 at 71st and Memorial.  A time and place for everyone. br/ The rest of the state is keeping pace with Green Country.  There are protests popping up everywhere, in places I would have never dreamed.  McAlester, Durant, Catoosa, Ardmore, Tahlequah all have protests planned, and Oklahoma City is kicking off the festivities at 9:00 AM at City Hall.  I am proud of Oklahomans for the first time in a long time, and I will stand with them on Saturday. Will you join us?`,
+            },
+            interaction: {
+                likes: '14k'
+            },
+        },
+        key: 8
+    }, {
+        content: {
+            info: {
+                icon: '',
                 author: "Marvin Rider",
                 id: 'marvin-rider',
                 links: [,],
@@ -217,14 +235,14 @@ The Bible is full of crackpottery. You will find fireproof men, a lionproof hero
             },
             article: {
                 headline: 'LUCA and the TREE',
-                image: '/assets/Key8article.jpg',
-                text: `It’s name was LUCA and it was not male, or female.  It was less than that, or so much more.  It was before masculine and feminine crashed the scene, with sex and all the drama.  We don’t know if it was the absolute beginning, but it was the beginning of all of this. br/ br/ All life on Earth evolved from LUCA, whether you like it or not.  The moss, the trees, the birds, and the bees, they all came from LUCA.  The Last Universal Common Ancestor launched all of the evolutionary lines that created everything that lives, and since life and geology are intertwined, LUCA’s offspring shaped the very evolution of the Earth as well. br/ br/ We are all LUCAs descendants. This singular species of simple life began changing slowly, eventually diverging into new species, who in turn kept changing, creating chains of evolution that never stopped. This has taken us to now, where the world around us is one great big family gathering.  We are brothers to the slime and sisters to the trees.  Even the dirt at our feet and the rocks that make up the mountains are part of our big family tree. br/ br/ Nobody knows for sure where LUCA came from.  It could have been the first life form on planet Earth, or it could have been the sole survivor of a world teeming with life.  Either way, what a ride! LUCA survived, and LUCA evolved, faced new challenges, and evolved again.  Uncounted iterations of LUCA played out in individual lives over billions of years.  br/ br/ To this day these species contend, cooperate, and feed upon each other.  It is a complicated but perfect loop.  Individuals experience the melodrama of life, consume other life forms, then die to be themselves consumed.  It is a cycle of passion, doom, and renewal.  It is the life paradox, all individuals die, but LUCA lives on. br/ br/ Have you ever had the nature epiphany, that mystical moment when you felt a connection to all living things? Perhaps you weren’t too high. As the ancestors of LUCA, we make up the roots, trunk, branches, and leaves of the tree of life. Nothing that flies, crawls, grows, runs, jumps, or swims can escape that fact.  It is all LUCA.    This single source has formed a complex network of itself around the entire planet, and it includes us. We are, in fact, one with nature after all.',
+                image: '/assets/Key9article.jpg',
+                text: `It’s name was LUCA and it was not male, or female. It was less than that, or so much more. It was before masculine and feminine crashed the scene, with sex and all the drama. We don’t know if it was the absolute beginning, but it was the beginning of all of this. br/ br/ All life on Earth evolved from LUCA, whether you like it or not.  The moss, the trees, the birds, and the bees, they all came from LUCA.  The Last Universal Common Ancestor launched all of the evolutionary lines that created everything that lives, and since life and geology are intertwined, LUCA’s offspring shaped the very evolution of the Earth as well. br/ br/ We are all LUCAs descendants. This singular species of simple life began changing slowly, eventually diverging into new species, who in turn kept changing, creating chains of evolution that never stopped. This has taken us to now, where the world around us is one great big family gathering.  We are brothers to the slime and sisters to the trees.  Even the dirt at our feet and the rocks that make up the mountains are part of our big family tree. br/ br/ Nobody knows for sure where LUCA came from.  It could have been the first life form on planet Earth, or it could have been the sole survivor of a world teeming with life.  Either way, what a ride! LUCA survived, and LUCA evolved, faced new challenges, and evolved again.  Uncounted iterations of LUCA played out in individual lives over billions of years.  br/ br/ To this day these species contend, cooperate, and feed upon each other.  It is a complicated but perfect loop.  Individuals experience the melodrama of life, consume other life forms, then die to be themselves consumed.  It is a cycle of passion, doom, and renewal.  It is the life paradox, all individuals die, but LUCA lives on. br/ br/ Have you ever had the nature epiphany, that mystical moment when you felt a connection to all living things? Perhaps you weren’t too high. As the ancestors of LUCA, we make up the roots, trunk, branches, and leaves of the tree of life. Nothing that flies, crawls, grows, runs, jumps, or swims can escape that fact.  It is all LUCA. This single source has formed a complex network of itself around the entire planet, and it includes us. We are, in fact, one with nature after all.`, 
             },
             interaction: {
                 likes: '14k'
             },
         },
-        key: 8
+        key: 9
     },
 ]
 
