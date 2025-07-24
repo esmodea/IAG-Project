@@ -249,7 +249,7 @@ The Bible is full of crackpottery. You will find fireproof men, a lionproof hero
                 icon: '',
                 author: "Jason Satyr",
                 id: 'jason-satyr',
-                links: [,],
+                links: [],
                 date: '7/24/25',
             },
             article: {
