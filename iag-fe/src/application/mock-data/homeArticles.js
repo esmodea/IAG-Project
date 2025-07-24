@@ -243,6 +243,25 @@ The Bible is full of crackpottery. You will find fireproof men, a lionproof hero
             },
         },
         key: 9
+    },{
+        content: {
+            info: {
+                icon: '',
+                author: "Jason Satyr",
+                id: 'jason-satyr',
+                links: [,],
+                date: '7/24/25',
+            },
+            article: {
+                headline: 'The Art of Consistency: Saturdays at 71st and Memorial Between 3-5',
+                image: '/assets/Key10article.jpg',
+                text: `Consistency, more than ability, more than talent, or desire determines success in any endeavor.  Ask any good mother, or world class athlete.  Consistent energy alone won’t get you there, but without it there is simply no chance of accomplishing anything that matters. br/ It was consistency that met my personal moment.  I needed to protest.  I needed it bad.  I was pissed off and ready to stand against American fascism.  It was the first day of the nation-wide 50501 demonstrations. Incredibly, most of the local groups had decided not to protest in Tulsa, because it was on the same day as the anniversary of the OKC bombing, which frankly, was an idea in bad taste.  The past should not obscure the needs of the present.  I had to do something, no matter how small, and I burned to take part in the historic moment. br/ That was when I found Aaron Walton’s weekly protest, and it was great.  The first 50501 nationwide day of protest drew millions, and thanks to the stubbornness of one man, Tulsa stepped up to represent. 71st and Memorial turned into a festival of democracy, a rowdy defense of liberty and human rights.  I was so happy to be there with hundreds of like-minded souls taking a stand, holding my sign. br/I had heard dark rumors about Aaron on the web before I met him.  He was dangerous.  He lied, claiming to be part of groups that he had no affiliation with.  He didn’t know what he was doing.  I wondered why he inspired so much FUD. I always figured that we needed all the soldiers that we could get on our side.  When I finally met him at his weekly protest, I was fascinated. br/ I found Aaron to be sharp, if a bit fierce, sitting next to his German Sheperd security dog.  He told me that he was not affiliated with any other groups in Tulsa, and that 50501 was designed to be a decentralized movement.  In fact, he was very proud of his independence and did not seem to want to be associated with anybody officially.  He had a strong feeling of ownership for his protest.  He told me that he will be there every Saturday, and he would stay as long as anyone wanted. br/ I am not sure what people meant by dangerous.  From what I saw, he worked hard to diffuse difficult situations.  Surprisingly non-confrontational with counter protesters, he was able to strike a calm conversational tone, even when faced with a rifle toting jackass.  Perhaps all serious people are dangerous in their own way.  Aarron Walton wanted to be
+                 dangerous to the Presidency of Donald Trump and the MAGA movement. I was happy to join him. br/ There are a lot of ways to spend a Saturday afternoon.   Oklahomans watch sports on TV or do yard work.  They may go shopping, or on a rare weekend, go to the lake or play a round of golf, but most of the time the rank-and-file Oklahoman would be hard-pressed to remember what they did two weekends ago on Saturday afternoon. br/ Rest, recreation, and even idleness are important, to a point, but right now the world doesn’t need idleness.  It needs saving. If you hate what is happening to our country, you have three choices: capitulate, cower in fear, or fight.  If you are not a quitter or the cowering type, come to the corner of Woodland Hills Malls on Saturday between 3-5;  Aaron will be there.  Don’t let history go by without letting your voice be heard.  Bring a sign.`,       },
+            interaction: {
+                likes: '14k'
+            },
+        },
+        key: 10
     },
 ]
 
