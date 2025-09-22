@@ -8,6 +8,7 @@ import ArticleWeb from "../common/Article";
 import articles from "../../../mock-data/homeArticles";
 import authors from "../../../mock-data/authorNames";
 import WriterBanner from "./WriterBanner";
+import keysData from "../../../common/keys.json";
 
 const WWriterContent = () => {
     const location = useLocation();
@@ -57,10 +58,10 @@ const WWriterContent = () => {
                     <div className="page-center-right">
                         <div className={`page-center`}>
                             <div className="layout-div"></div>
-                            {posts.map((post) => {
+                            {posts.map((post, idx) => {
                                 const {article, info, interaction} = post.content;
                                 const authorName = location.pathname.split('/')[location.pathname.split('/').length - 1];
-                                if(info.id === authorName)return <ArticleWeb article={article} info={info} interaction={interaction} id={+post.key} key={+post.key}/>;
+                                if(info.id === authorName)return <ArticleWeb article={article} info={info} interaction={interaction} id={post.key} key={Math.min(keysData.keys.components.writer_page.min + idx, keysData.keys.components.writer_page.max)}/>;
                                 return '';
                             })}
                             <div className="layout-div">how did you find this?</div>

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import LinkContainer from "./LinkContainer";
 import { LikeOutlined, DislikeOutlined, MailOutlined, ShareAltOutlined } from "@ant-design/icons";
 import { Link } from "react-router-dom";
+import keysData from "../../../common/keys.json";
 
 const ArticleWeb = (props) => {
     const {article, info, id} = props;
@@ -41,7 +42,7 @@ const ArticleWeb = (props) => {
     };
 
     return (
-        <div key={id * 135} className={`article`}>
+        <div key={Math.min(keysData.keys.components.article.min + id, keysData.keys.components.article.max)} className={`article`}>
             <div className="info-bar">
                 <div className="icon"></div>
                 <Link to={'/home'}><h2 className="author-name-article">{info.author}</h2></Link>
@@ -53,7 +54,7 @@ const ArticleWeb = (props) => {
                 <p className="date">{info.date}</p>
                 {article.text.split("br/").map((text, idx) => {
                     return(
-                        <p key={(id + 1) * idx} className="article-text">{text}</p>
+                        <p key={Math.min(keysData.keys.components.article.text.min + idx, keysData.keys.components.article.text.max)} className="article-text">{text}</p>
                     )
                 })}
             </div>

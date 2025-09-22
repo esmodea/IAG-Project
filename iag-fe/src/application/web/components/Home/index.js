@@ -5,6 +5,7 @@ import WritersWidget from "../common/WritersWidget";
 import AboutWidget from "../common/AboutWidget";
 import ArticleWeb from "../common/Article";
 import articles from "../../../mock-data/homeArticles";
+import keysData from "../../../common/keys.json";
 
 const WHomeContent = () => {
     
@@ -20,9 +21,9 @@ const WHomeContent = () => {
                         <div className="layout-div"></div>
                         <div className="layout-div"></div>
                         <div className="page-center">
-                            {articles.sort((a, b) => b.key - a.key).map((post) => {
+                            {articles.sort((a, b) => b.key - a.key).map((post, idx) => {
                                 const {article, info, interaction} = post.content;
-                                return <ArticleWeb article={article} info={info} interaction={interaction} id={+post.key} key={+post.key} />;
+                                return <ArticleWeb article={article} info={info} interaction={interaction} id={post.key} key={Math.min(keysData.keys.components.home_page.min + idx, keysData.keys.components.home_page.max)} />;
                             })}
                             <div className="layout-div">how did you find this?</div>
                         </div>
