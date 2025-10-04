@@ -3,7 +3,7 @@ import authors from "../../../mock-data/authorNames";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { changeWriter } from "../../../../state/common/currentWriter";
-
+import keysData from "../../../common/keys.json";
 
 const WritersWidget = (props) => {
     const dispatch = useDispatch();
@@ -20,7 +20,7 @@ const WritersWidget = (props) => {
             <ul className="writer-list">
                 {authors.map((author, idx) => {
                     return(
-                        <li key={idx * 13245} className="writer">
+                        <li key={Math.min(keysData.keys.components.writers_widget.min + idx, keysData.keys.components.writers_widget.max)} className="writer">
                             <div><div className="icon"></div></div> {/* a spacing div around the icon */}
                             <button onClick={() => {handleClick(author.id)}} className="name"> {author.name} </button>
                         </li>

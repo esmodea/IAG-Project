@@ -1,5 +1,5 @@
 import React from "react";
-import LinkContainer from "./LinkContainer";
+import LinkContainer from "../common/LinkContainer";
 
 const InfoRow = (props) => {
     const {icon, author, links} = props;

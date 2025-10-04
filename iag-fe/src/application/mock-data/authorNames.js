@@ -28,6 +28,18 @@ const authors = [
         name: "The Apostate",
         icon: "",
         about: "The Apostate hates religion and seeks to undermine it at every turn. This once devout fanatic now has the ultimate goal of ending of all religion. The Apostate pulls no punches and spares no one."
+    },
+    {
+        id: "alix-burn",
+        name: "Alix Burn",
+        icon: "",
+        about: "",
+    },
+    {
+        id: "rick-friction",
+        name: "Rick Friction",
+        icon: "",
+        about: "",
     }
 ]
 

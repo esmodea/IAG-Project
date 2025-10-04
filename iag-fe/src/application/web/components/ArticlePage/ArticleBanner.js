@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { useLocation } from "react-router";
 import { ArrowDownOutlined } from "@ant-design/icons";
 
-const AboutWidget = (props) => {
-    const { text, authorName } = props;
-    const location = useLocation(); 
+const HeadlineBanner = (props) => {
+    let headline;
+    if(props.headline)headline = props.headline;
     const [isHidden, setIsHidden] = useState(false);
     const [hideScroll, setHideScroll] = useState(false);
     const [posTop, setPosTop] = useState(0)
@@ -35,16 +34,17 @@ const AboutWidget = (props) => {
             }
         }
     }, [isHidden, posTop])
-    
-    return (
-        <div>
-            <div className="about-widget">  
-                <h3 className="about-title">{location.pathname === '/home' ? 'About' : 'About This Author'}</h3>
-                <p className="about-text">{text}</p>
-            </div>
-            {location.pathname.split('/')[location.pathname.split('/').length - 2] == 'writer' ? <p className={`scroll-notif ${hideScroll ? 'hide-scroll' : ''}`} style={{fontFamily: 'var(--main-text-family)', fontSize: '2.25rem', paddingTop: '1rem'}}>Scroll down for more articles! <br /> <ArrowDownOutlined style={{fontSize: '2rem'}} /></p> : ''}
-        </div>
-    )
-};
 
-export default AboutWidget;
+    return (
+        <>
+        <div id="banner" className={`web-article-banner ${hideScroll ? 'hide-scroll' : ''}`}>
+            {/* <div className="icon"></div>
+            <div className="icon-bar"></div> */}
+            <h1 className="headline-text">{headline}</h1>
+        </div>
+        {/* <p className={`scroll-notif hide-scroll`} style={{fontFamily: 'var(--main-text-family)', fontSize: '2.25rem', paddingTop: '1rem'}}>Scroll down for more articles! <br /> <ArrowDownOutlined style={{fontSize: '2rem'}} /></p> */}
+        </>
+    )
+}
+
+export default HeadlineBanner;

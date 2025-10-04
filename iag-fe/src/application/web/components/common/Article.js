@@ -2,9 +2,10 @@ import React, { useState, useEffect } from "react";
 import LinkContainer from "./LinkContainer";
 import { LikeOutlined, DislikeOutlined, MailOutlined, ShareAltOutlined } from "@ant-design/icons";
 import { Link } from "react-router-dom";
+import keysData from "../../../common/keys.json";
 
 const ArticleWeb = (props) => {
-    const {article, info, id} = props;
+    const {article, info, id, displayHeadline} = props;
     const [copyState, setCopyState] = useState({animation: 'hide 1s infinite'});
     const [skewStyle, setSkewStyle] = useState('')
     useEffect(() => {
@@ -32,28 +33,26 @@ const ArticleWeb = (props) => {
     };
 
     const onClickShare = (articleHeadline) => {
-        navigator.clipboard.writeText(`Hey, have you heard about "${article.headline}"? You can read more about that and other things at informationagegazette.com here are their sources for that headline: ${
-            info.links.map((link) => {
-                return `${link}`
-            })
-        }`);
+        navigator.clipboard.writeText(`informationagegazette.com/article/${id}`);
         setCopyState({animation: 'show 1s 1'})
     };
 
     return (
-        <div key={id * 135} className={`article`}>
+        <div key={Math.min(keysData.keys.components.article.min + id, keysData.keys.components.article.max)} className={`article`}>
             <div className="info-bar">
                 <div className="icon"></div>
-                <Link to={'/home'}><h2 className="author-name-article">{info.author}</h2></Link>
+                <Link to={`/writer/${info.id}`}><h2 className="author-name-article">{info.author}</h2></Link>
                 {info.links[0] ? <LinkContainer links={info.links}/> : ''}
             </div>
             <div className="article-body">
                 {article.image ? <img src={article.image} alt="from-article" className="article-image" /> : ''}
-                <h3 className="headline">{article.headline}</h3>
+                <Link to={`/article/${id}`} >
+                    <h3 className="headline">{displayHeadline == undefined || displayHeadline ? article.headline : ''}</h3>
+                </Link>
                 <p className="date">{info.date}</p>
                 {article.text.split("br/").map((text, idx) => {
                     return(
-                        <p key={(id + 1) * idx} className="article-text">{text}</p>
+                        <p key={Math.min(keysData.keys.components.article.text.min + idx, keysData.keys.components.article.text.max)} className="article-text">{text}</p>
                     )
                 })}
             </div>
