@@ -39,7 +39,7 @@
     "start": "parcel",
     "build": "parcel build",
     "test": "jest",
-    "lint": "eslint src"
+    "lint": "eslint src --fix"
   },
   "eslintConfig": {
     "extends": [
