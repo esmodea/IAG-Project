@@ -4,6 +4,7 @@ import HomePageMobile from './application/mobile/pages/HomePageMobile';
 import WriterPageMobile from './application/mobile/pages/WriterPageMobile';
 import HomePageWeb from './application/web/pages/HomePageWeb';
 import WriterPageWeb from './application/web/pages/WriterPageWeb';
+import ArticlePageWeb from './application/web/pages/ArticlePageWeb';
 import './application/common/common.css';
 import './App.css';
 import authors from './application/mock-data/authorNames';
@@ -53,13 +54,13 @@ function App() {
       {articles.map((article, idx) => {
         const newIdx = Math.min([(idx * keyMult + keysData.keys.articles.min), keysData.keys.articles.max]);
         return(
-          <Route key={newIdx} path={`/m/${article.key}`} element={isMobile ? <WriterPageMobile /> : <Navigate to={`/article/${article.key}`} />} />
+          <Route key={newIdx} path={`/m/article/${article.key}`} element={isMobile ? <WriterPageMobile /> : <Navigate to={`/article/${article.key}`} />} />
         )
       })}
       {articles.map((article, idx) => {
         const newIdx = Math.min([(idx * keyMult + keysData.keys.articles.min) - 1, keysData.keys.articles.max]);
         return(
-          <Route key={newIdx} path={`/article/${article.key}`} element={isMobile ? <WriterPageMobile /> : <Navigate to={`/m/${article.key}`} />} />
+          <Route key={newIdx} path={`/article/${article.key}`} element={ <ArticlePageWeb />} />
         )
       })}
     </Routes>

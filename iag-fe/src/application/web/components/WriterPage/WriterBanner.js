@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { ArrowDownOutlined } from "@ant-design/icons";
 
 const WriterBanner = (props) => {
     let authorName;
@@ -42,7 +41,6 @@ const WriterBanner = (props) => {
             <div className="icon-bar"></div>
             <h1 className="author-name">{authorName}</h1>
         </div>
-        <p className={`scroll-notif ${hideScroll ? 'hide-scroll' : ''}`} style={{fontFamily: 'var(--main-text-family)', fontSize: '2.25rem', paddingTop: '1rem'}}>Scroll down for more articles! <br /> <ArrowDownOutlined style={{fontSize: '2rem'}} /></p>
         </>
     )
 }

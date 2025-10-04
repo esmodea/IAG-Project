@@ -237,9 +237,29 @@
     font-family: var(--author-family);
 }
 
-.article-body > h3{
+.article-body > * > h3{
     margin-left: -1rem;
     margin-bottom: 1rem;
+}
+
+.scroll-notif{
+    height: 3rem;
+    width: 18vw;
+    text-align: center;
+    position: fixed;
+    top: 70vh;
+    z-index: 1;
+    background: none;
+    padding-bottom: 3rem;
+    padding-top: .5rem;
+    border-radius: 1rem;
+    transition: .2s ease-in;
+    color: var(--color-secondary-2-2);
+}
+
+.scroll-notif.hide-scroll {
+    top: 100vh;
+    transition: 1s ease-in;
 }
 
 .interaction-bar{
