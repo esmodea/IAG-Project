@@ -40,7 +40,13 @@ const authors = [
         name: "Rick Friction",
         icon: "",
         about: "",
-    }
+    },
+    {
+        id: "anonymous-one",
+        name: "Letters to the Editor",
+        icon: "",
+        about: "",
+    },
 ]
 
 export default authors;
