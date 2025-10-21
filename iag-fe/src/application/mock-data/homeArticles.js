@@ -299,7 +299,7 @@ Significant increase in NK cell activation - regulation of blood pressure - bene
                 headline: 'A Typical American Story',
                 text: `I never intended on writing this. I never intended on speaking on this. But here we are. The
 current political climate requires it. It is time to tell my story. br/ I am a white woman in the middle of America. I was born in the 70s and raised through the
-80s. I was raised in a Christian church. I am a typical American woman. br/ I am married. I took my husband’s name. I have three grown children. business owner. I am a typical aspiring American woman. br/ I raised my children to respect school; to be kind; to help others. I took them to church. I
+80s. I was raised in a Christian church. I am a typical American woman. br/ I am married. I took my husband’s name. I have three grown children. I am a lawyer and a business owner. I am a typical aspiring American woman. br/ I raised my children to respect school; to be kind; to help others. I took them to church. I
 paid for music lessons, sports teams, and theater costumes. I raised my children as
 expected, like a typical American woman. br/ I cared about their grades. I made their Halloween costumes. I made gifts for their
 teachers. I checked their backpacks. I listened to their problems, and I guided them like a
