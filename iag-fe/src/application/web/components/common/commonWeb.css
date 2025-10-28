@@ -316,7 +316,9 @@
     justify-content: space-around;
     z-index: 1;
     overflow: auto;
-    height: 20rem;
+    max-height: 20rem; 
+    min-height: 0rem;
+    min-width: 0rem;
 }
 
 .hide{
@@ -336,7 +338,15 @@
 }
 
 .citation-button{
-    font-size: 2rem;
+    font-size: 1.5rem;
+    border-radius: 10;
+    border: none;
+    color: var(--color-secondary-1-1);
+    background-color: rgba(92, 0, 5, .25);
+}
+
+.citation-button:hover{
+    background-color: rgba(122, 30, 35, .25);
 }
 
 .citation-button:active{
