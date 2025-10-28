@@ -227,9 +227,9 @@ info_start: '',
 icon: '',
 author: "Marvin Rider",
 id: 'marvin-rider',
-links: [],
-info_end: '',
+links: ['link_start_iag_client', 'link_end_iag_client',],
 date: '7/8/25',
+info_end: '',
 },
 article: {
 content_start: '',
@@ -248,6 +248,7 @@ key_end: '',
 article_finish: '',
 },
 {
+article_start: '',
 content: {
 info: {
 info_start: '',
