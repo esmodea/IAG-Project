@@ -332,4 +332,3 @@ article_finish: '',
 }
 ]
 export default articles;
-

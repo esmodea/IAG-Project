@@ -49,4 +49,3 @@ about: "",
 },
 ]
 export default authors;
-
