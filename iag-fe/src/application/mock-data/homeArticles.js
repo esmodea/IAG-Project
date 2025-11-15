@@ -1,4 +1,4 @@
-import images from "./static/images/index.js"; 
+import images from "./static/images/index.js";
 const articles = [
 {
 article_start: "",
@@ -107,7 +107,7 @@ key_start: "",
 key: 4,
 key_end: "",
 article_finish: "",
-}, 
+},
 {
 article_start: "",
 content: {
@@ -134,7 +134,7 @@ key_start: "",
 key: 5,
 key_end: "",
 article_finish: "",
-}, 
+},
 {
 article_start: "",
 content: {
@@ -162,7 +162,7 @@ key_start: "",
 key: 6,
 key_end: "",
 article_finish: "",
-}, 
+},
 {
 article_start: "",
 content: {
@@ -190,7 +190,7 @@ key_start: "",
 key: 7,
 key_end: "",
 article_finish: "",
-}, 
+},
 {
 article_start: "",
 content: {
@@ -218,7 +218,7 @@ key_start: "",
 key: 8,
 key_end: "",
 article_finish: "",
-}, 
+},
 {
 article_start: "",
 content: {
