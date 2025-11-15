@@ -329,6 +329,6 @@ key_start: "",
 key: 12,
 key_end: "",
 article_finish: "",
-}
+},
 ]
 export default articles;
