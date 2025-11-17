@@ -380,5 +380,37 @@ key: 12,
 key_end: "", 
 article_finish: "", 
 }, 
+{ 
+article_start: "", 
+content: { 
+info: { 
+info_start: "", 
+icon: "", 
+author: "Marvin Rider", 
+id: "marvin-rider", 
+links: ["link_start_iag_client","TEST", "link_end_iag_client",], 
+date: "11/17/2025", 
+info_end: "", 
+}, 
+article: { 
+content_start: "", 
+headline_start: "", 
+headline: "TEST", 
+headline_end: "", 
+image: images.key7Image, 
+text_start: "", 
+text: `TEST`, 
+text_end: "", 
+content_end: "", 
+}, 
+interaction: { 
+likes: "14k", 
+}, 
+}, 
+key_start: "", 
+key: 13, 
+key_end: "", 
+article_finish: "", 
+}, 
 ] 
 export default articles; 
