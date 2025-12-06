@@ -7,7 +7,7 @@ import key3Image from "url:./key3Image.jpg";
 import key4Image from "url:./key4Image.jpg";
 import key5Image from "url:./key5Image.jpg";
 import key6Image from "url:./key6Image.jpg";
-import key7Image from "url:./key7Image.png";
+import key7Image from "url:./key7Image.jpeg";
 const images = {
 emptyIcon,
 key1Image,
