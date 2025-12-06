@@ -380,37 +380,5 @@ key: 12,
 key_end: "", 
 article_finish: "", 
 }, 
-{ 
-article_start: "", 
-content: { 
-info: { 
-info_start: "", 
-icon: "", 
-author: "Rick Friction", 
-id: "rick-friction", 
-links: ["link_start_iag_client","www.google.com", "link_end_iag_client",], 
-date: "12/6/2025", 
-info_end: "", 
-}, 
-article: { 
-content_start: "", 
-headline_start: "", 
-headline: "A test do not mind", 
-headline_end: "", 
-image: images.key7Image, 
-text_start: "", 
-text: `Insert text herebr/br/      This is indentedbr/br/this isn't indented`, 
-text_end: "", 
-content_end: "", 
-}, 
-interaction: { 
-likes: "14k", 
-}, 
-}, 
-key_start: "", 
-key: 13, 
-key_end: "", 
-article_finish: "", 
-}, 
 ] 
 export default articles; 
