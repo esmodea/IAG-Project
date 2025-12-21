@@ -47,5 +47,17 @@ name: "Letters to the Editor",
 icon: "",
 about: "",
 },
+{
+id: "news-grinder",
+name: "Newsgrinder",
+icon: "",
+about: "",
+},
+{
+id: "daily-meme",
+name: "Meme of the Day",
+icon: "",
+about: "",
+},
 ]
 export default authors;
