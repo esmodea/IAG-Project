@@ -381,5 +381,37 @@ key: 12,
 key_end: "", 
 article_finish: "", 
 }, 
+{ 
+article_start: "", 
+content: { 
+info: { 
+info_start: "", 
+icon: "", 
+author: "Jason Satyr", 
+id: "jason-satyr", 
+links: ["link_start_iag_client", "link_end_iag_client",], 
+date: "12/22/2025", 
+info_end: "", 
+}, 
+article: { 
+content_start: "", 
+headline_start: "", 
+headline: "Riding Along on Socialism ", 
+headline_end: "", 
+image: images.key9Image, 
+text_start: "", 
+text: `The public road system in America is a perfect example of Socialism.  It is also an example of good socialism, and it gives us a model for improving life.  As a nation we need roads, and we collectively pay for them with tax dollars.  It’s not communism.  Private companies build the roads, and the government simply funds them.  When all the pavement and asphalt are completed, all of us can drive on them whenever we want.  Socialism.br/br/Our road system uses free enterprise for what it is good for, keeping the price down and improving the technology.  Private companies compete against each other with the government paying for the projects. We get the best from two ideologies.  Socialism directs dollars toward meeting the needs of the people, and capitalism continually sharpens the road making industry through competition, giving us better roads at lower prices.br/br/We have such amazing freedom of movement and unfettered access to everything. Can you imagine if we didn’t have socialistic roads?  Communistic roads, bogged down in bureaucracy, would stagnate with lack of urgency and innovation.  Without the capitalistic drive for efficiency and improvement, the roads would suffer from high costs, low quality, and lack of technological advancement.  br/br/Purely capitalistic roads would be worse.  The corporations would not freely share the roads they built.  If you doubt this, go down any road labeled “Private Drive” and see what happens to you.  In the best-case scenario, regular people would have to pay a road corporation for every mile of driving in every direction; the cost would be overwhelming, and it would severely limit travel.  The US has dialed in the formula with our roads, socialism powered by capitalism.  We should look to repeat that formula as often as possible wherever we can.br/`, 
+text_end: "", 
+content_end: "", 
+}, 
+interaction: { 
+likes: "14k", 
+}, 
+}, 
+key_start: "", 
+key: 13, 
+key_end: "", 
+article_finish: "", 
+}, 
 ] 
 export default articles; 
