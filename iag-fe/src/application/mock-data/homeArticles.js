@@ -445,5 +445,37 @@ key: 14,
 key_end: "", 
 article_finish: "", 
 }, 
+{ 
+article_start: "", 
+content: { 
+info: { 
+info_start: "", 
+icon: "", 
+author: "Marvin Rider", 
+id: "marvin-rider", 
+links: ["link_start_iag_client", "link_end_iag_client",], 
+date: "2/2/2026", 
+info_end: "", 
+}, 
+article: { 
+content_start: "", 
+headline_start: "", 
+headline: "American Dystopia ", 
+headline_end: "", 
+image: images.key10Image, 
+text_start: "", 
+text: `It has all gone wrong.  So fast, almost overnight, the America that I loved turned into a nightmare of totalitarianism.  We all live there now.  The nasty Christian Republicans have always wanted their boot on our necks.  Now they have it!  Their Big Beautiful Bastard of a Bill gave Trump his own private army of thugs, a giant gang of assholes with weapons and badges, covering their faces like the mean cowards that they are.   George Orwell could not have written a more sinister plot.  br/br/ICE is a disgusting daily reminder of why I hate Republicans.  These masked bastards don’t behave like law enforcement or army.  No, they are a massive mob of droogies.  Foul and abusive men, who revel in causing pain, this is where all the incels must have gone.  They are life’s bitter and unsuccessful ghouls, creepy dudes who want to hurt normal people like you and me.  The slimy cunts wear those face covering masks so that they can break laws with cruel relish and demonic joy.  br/br/Watch the videos. These guys sprint at the opportunity to hit people with sticks and shoot them in the face with pepper spray. They are everywhere, smashing windows, grabbing teenagers and oldsters, beating them down. They gleefully ignore the constitution, snatching people out of cars with no probable cause and smashing down front doors in the middle of the night without warrants.  Now, the ICE monsters are executing citizens in the streets! br/ br/Dystopia is everywhere.  SCOTUS will not accept ethical guidelines of any kind, and reactionary justices are bending reality to their will, while billionaires worm their tongues into their ears while slipping money into judicial pockets.  We have a criminal POTUS, with a long greasy history of graft.  Once a benevolent nation, the USA took away take away the funds from USAID, starving millions.  US troops have descended upon Democrat run cities, and fraudsters, insurrectionists and sex offenders are getting pardons while elected officials are stuffing their bank accounts with national funds.  Worst of all, the DOJ is completely corrupt, under Donald’s thumb.br/br/We live in an age where the POTUS and his cabinet are Batman villains, and we have no superheroes to fight them.  There is only you and me, and the price for our heroism might be death.  Still, I ask you to stand with me.  We don’t want to leave this dystopia to our children.  It is our task to take it down and replace it with as beautiful a future as we can muster.  So, we must grab hold of the present and rip it from their hands, because right now the worst people in the world have control of America.br/br/br/`, 
+text_end: "", 
+content_end: "", 
+}, 
+interaction: { 
+likes: "14k", 
+}, 
+}, 
+key_start: "", 
+key: 15, 
+key_end: "", 
+article_finish: "", 
+}, 
 ] 
 export default articles; 
