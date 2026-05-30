@@ -19,6 +19,7 @@ import key15Image from "url:./key15Image.png";
 import key16Image from "url:./key16Image.png";
 import key17Image from "url:./key17Image.png";
 import key18Image from "url:./key18Image.png";
+import key19Image from "url:./key19Image.png";
 const images = {
 emptyIcon,
 key1Image,
@@ -39,5 +40,6 @@ key15Image,
 key16Image,
 key17Image,
 key18Image,
+key19Image,
 }
 export default images;
