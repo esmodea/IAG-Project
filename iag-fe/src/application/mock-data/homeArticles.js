@@ -529,5 +529,38 @@ key: 16,
 key_end: "", 
 article_finish: "", 
 }, 
+{ 
+article_start: "", 
+content: { 
+info: { 
+info_start: "", 
+icon: "", 
+author: "Letters to the Editor", 
+id: "anonymous-one", 
+links: ["link_start_iag_client",
+ "link_end_iag_client",], 
+date: "8/24/2026", 
+info_end: "", 
+}, 
+article: { 
+content_start: "", 
+headline_start: "", 
+headline: "VOTE NO on SQ 846: It is a Solution in Search of a Problem", 
+headline_end: "", 
+image: images.key14Image, 
+text_start: "", 
+text: `br/On Tuesday, August 24th, Oklahoma citizens will vote on SQ 846.  This is a proposed constitutional amendment to put voter ID proof into the Oklahoma constitution.  I am asking you to vote no. This State Question is a solution to a problem Oklahoma does not have.  This State Question will hand more power to legislators, and that power could allow them to pick and choose who can vote.br/Oklahoma currently has existing Voter ID legislation.  The main statute is 26 O.S. 7-114 and went into effect July 1, 2011, approved by voters in 2010 through a vote on State Question 746.  Under this current law, Oklahoma requires voters to provide an unexpired ID with name and Photo, issued by the US, Oklahoma or a federally recognized tribe.  The legislation continues providing multiple options if photo ID is not available, and guidance on names that do not match the ID.br/15 years ago, Oklahoma paid for an election and voted on Voter ID.  Oklahoma addressed the issue thoroughly.  Oklahomans determined a voter ID path and provided detailed legislation.  Oklahoma trained officials and volunteers on this system.br/The results: Oklahoma voter integrity is sound. In 2024, an election security task force, created by Governor Stitt, concluded that Oklahoma elections are secure and accurate.  Research into voter integrity in Oklahoma leads to little voter fraud and even less voter fraud related to ID.  For example, In Oklahoma’s 2020 election, 1.56 million ballots were cast. 59 possible voting violations were discovered. One resulted in criminal charges.  Oklahoma enacted legislation, and it worked.br/SQ 846 asks Oklahoma to put Voter ID law into the Constitution.  It requests “proof of identity for all authorized methods of voting”.   The proposed referendum requires “the Legislature to enact laws to specify requirements for proof of identity”. This would add a new section 6 to article 3 of the Oklahoma Constitution which is basically the same wording as the State Question.br/There are multiple issues with the language of SQ846, including the proof of ID requirement.  Adding proof of Identity to the constitution is not the point of this discussion.  It is a side note at best, a discussion that ruins a social time at the least but mainly will sideline the real discussion today that this SQ is unnecessary and harmful.  So, I will sidestep that discussion.br/The main issue with the language of SQ846 is that Oklahoma would not add the existing, successful legislation to the Oklahoma Constitution. It would provide Legislators with complete control over the definition and impact of Voter Id.  Whether the intent of this legislation is to change the existing legislation is not the complete concern.  The problem is handing any legislative body control over voter ID laws, especially by adding it to the Constitution without limitation.br/The Oklahoma Constitution has never been easy to amend, as Constitutions should be, but with recent changes, the citizens’ ability to change the constitution is limited and complicated. Oklahomans can no longer petition the state, provide the correct signatures, and vote.  Oklahoma recently made it materially more difficult to gather the signatures necessary to get an initiative or referendum onto the ballet by limiting who and how many people can sign from each county.   And if successful, there are now limits on the dates on which that vote can occur. These changes also placed limitations on the Governor.br/Citizens were not asked to vote on this.  The Legislature made these decisions.  The Oklahoma Legislature limited our power to referendum our state even when this right is reserved to the citizens in our constitution.  The Oklahoma legislature limited the dates on which we can vote on the change’s citizens request.  And yet, these limitations were not placed on the Legislative body.  The Oklahoma Legislature still retains the right to referendum and special elections when they want.br/SQ 846 is created and driven by the Oklahoma legislature.  The SQ was added to a ballot on one of the limited, legislated days. It was added to a primary runoff of Democrats for the US Senate general election.  There are municipal questions across the state as well on this ballot.br/The Oklahoma Legislature has proven they want to limit the voting access of the Oklahoma Citizen.  They have retained their rights to referendum, vote, and special elections.  They are now asking us to vote for less personal power for the citizens and more undefined power for them.br/I am not writing today to argue what voting ID definitions could be or what the possible impact could be.  I am not stating who will be able to vote and will be refused.  I instead wanted to demonstrate the self-invested power the Oklahoma Legislature will use.  I am asking you to retain your rights as a citizen and not relinquish your power to this limited few.  I am asking for Oklahoma to ask their Legislature to define their actions and limit possible future abuse of power.  I am asking you to vote no on SQ846.br/https://informationagegazette.com/home See lessbr/`, 
+text_end: "", 
+content_end: "", 
+}, 
+interaction: { 
+likes: "14k", 
+}, 
+}, 
+key_start: "", 
+key: 17, 
+key_end: "", 
+article_finish: "", 
+}, 
 ] 
 export default articles; 
