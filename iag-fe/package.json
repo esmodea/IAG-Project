@@ -9,7 +9,6 @@
     "@babel/plugin-syntax-flow": "^7.18",
     "@babel/plugin-transform-react-jsx": "^7.21",
     "@reduxjs/toolkit": "^1.9.2",
-    "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
     "antd": "^5.2.1",
@@ -24,7 +23,7 @@
     "morgan": "^1.9",
     "npm-run-all": "^4.1",
     "nth-check": "^2.1.1",
-    "parcel": "^2.16.0",
+    "parcel": "^2.16.3",
     "postcss": "^8.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -39,12 +38,11 @@
     "start": "parcel",
     "build": "parcel build",
     "test": "jest",
-    "lint": "eslint src"
+    "lint": "eslint src --fix"
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
   },
   "browserslist": {
@@ -60,18 +58,15 @@
     ]
   },
   "devDependencies": {
-    "@parcel/packager-raw-url": "^2.16.0",
-    "@parcel/transformer-webmanifest": "^2.16.0",
-    "babel-jest": "^26.6.0",
+    "@parcel/packager-raw-url": "^2.16.3",
+    "@parcel/transformer-webmanifest": "^2.16.3",
     "babel-preset-react-app": "^10.0.0",
     "buffer": "^6.0.3",
     "create-react-app": "^1.2.1",
     "eslint": "^7.11.0",
     "eslint-config-react-app": "^6.0.0",
     "identity-obj-proxy": "3.0.0",
-    "jest": "26.6.0",
-    "jest-watch-typeahead": "0.6.1",
-    "netlify-cli": "^23.6.0"
+    "netlify-cli": "^23.13.0"
   },
   "source": "public/index.html"
 }
